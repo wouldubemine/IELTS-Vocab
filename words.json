@@ -1,0 +1,4815 @@
+[
+  {
+    "id": "monday",
+    "text": "Monday",
+    "category": "days-of-the-week"
+  },
+  {
+    "id": "tuesday",
+    "text": "Tuesday",
+    "category": "days-of-the-week"
+  },
+  {
+    "id": "wednesday",
+    "text": "Wednesday",
+    "category": "days-of-the-week"
+  },
+  {
+    "id": "thursday",
+    "text": "Thursday",
+    "category": "days-of-the-week"
+  },
+  {
+    "id": "friday",
+    "text": "Friday",
+    "category": "days-of-the-week"
+  },
+  {
+    "id": "saturday",
+    "text": "Saturday",
+    "category": "days-of-the-week"
+  },
+  {
+    "id": "sunday",
+    "text": "Sunday",
+    "category": "days-of-the-week"
+  },
+  {
+    "id": "weekdays",
+    "text": "weekdays",
+    "category": "days-of-the-week"
+  },
+  {
+    "id": "weekend",
+    "text": "weekend",
+    "category": "days-of-the-week"
+  },
+  {
+    "id": "january",
+    "text": "January",
+    "category": "months-of-the-year"
+  },
+  {
+    "id": "february",
+    "text": "February",
+    "category": "months-of-the-year"
+  },
+  {
+    "id": "march",
+    "text": "March",
+    "category": "months-of-the-year"
+  },
+  {
+    "id": "april",
+    "text": "April",
+    "category": "months-of-the-year"
+  },
+  {
+    "id": "may",
+    "text": "May",
+    "category": "months-of-the-year"
+  },
+  {
+    "id": "june",
+    "text": "June",
+    "category": "months-of-the-year"
+  },
+  {
+    "id": "july",
+    "text": "July",
+    "category": "months-of-the-year"
+  },
+  {
+    "id": "august",
+    "text": "August",
+    "category": "months-of-the-year"
+  },
+  {
+    "id": "september",
+    "text": "September",
+    "category": "months-of-the-year"
+  },
+  {
+    "id": "october",
+    "text": "October",
+    "category": "months-of-the-year"
+  },
+  {
+    "id": "november",
+    "text": "November",
+    "category": "months-of-the-year"
+  },
+  {
+    "id": "december",
+    "text": "December",
+    "category": "months-of-the-year"
+  },
+  {
+    "id": "cash",
+    "text": "cash",
+    "category": "money-matters"
+  },
+  {
+    "id": "debit",
+    "text": "debit",
+    "category": "money-matters"
+  },
+  {
+    "id": "credit-card",
+    "text": "credit card",
+    "category": "money-matters"
+  },
+  {
+    "id": "cheque",
+    "text": "cheque",
+    "category": "money-matters",
+    "alt": [
+      "check"
+    ],
+    "hint": "written bank payment order"
+  },
+  {
+    "id": "in-advance",
+    "text": "in advance",
+    "category": "money-matters"
+  },
+  {
+    "id": "annual-fee",
+    "text": "annual fee",
+    "category": "money-matters"
+  },
+  {
+    "id": "monthly-membership",
+    "text": "monthly membership",
+    "category": "money-matters"
+  },
+  {
+    "id": "interest-rate",
+    "text": "interest rate",
+    "category": "money-matters"
+  },
+  {
+    "id": "deposit",
+    "text": "deposit",
+    "category": "money-matters"
+  },
+  {
+    "id": "tuition-fees",
+    "text": "tuition fees",
+    "category": "money-matters"
+  },
+  {
+    "id": "poverty",
+    "text": "poverty",
+    "category": "money-matters"
+  },
+  {
+    "id": "bank-statement",
+    "text": "bank statement",
+    "category": "money-matters"
+  },
+  {
+    "id": "money-management",
+    "text": "money management",
+    "category": "money-matters"
+  },
+  {
+    "id": "current-account",
+    "text": "current account",
+    "category": "money-matters"
+  },
+  {
+    "id": "student-account",
+    "text": "student account",
+    "category": "money-matters"
+  },
+  {
+    "id": "withdraw",
+    "text": "withdraw",
+    "category": "money-matters"
+  },
+  {
+    "id": "low-risk-investment",
+    "text": "low-risk investment",
+    "category": "money-matters"
+  },
+  {
+    "id": "mortgage",
+    "text": "mortgage",
+    "category": "money-matters"
+  },
+  {
+    "id": "grace-period",
+    "text": "grace period",
+    "category": "money-matters"
+  },
+  {
+    "id": "budget-deficit",
+    "text": "budget deficit",
+    "category": "money-matters"
+  },
+  {
+    "id": "retail-voucher",
+    "text": "retail voucher",
+    "category": "money-matters"
+  },
+  {
+    "id": "coupon",
+    "text": "coupon",
+    "category": "money-matters"
+  },
+  {
+    "id": "counterfeit-money",
+    "text": "counterfeit money",
+    "category": "money-matters"
+  },
+  {
+    "id": "public-money",
+    "text": "public money",
+    "category": "money-matters"
+  },
+  {
+    "id": "taxpayers-money",
+    "text": "taxpayers' money",
+    "category": "money-matters",
+    "alt": [
+      "taxpayers money",
+      "taxpayer's money"
+    ]
+  },
+  {
+    "id": "debt",
+    "text": "debt",
+    "category": "money-matters"
+  },
+  {
+    "id": "interest-free-credit",
+    "text": "interest-free credit",
+    "category": "money-matters"
+  },
+  {
+    "id": "purchase",
+    "text": "purchase",
+    "category": "money-matters"
+  },
+  {
+    "id": "partial-refund",
+    "text": "partial refund",
+    "category": "money-matters"
+  },
+  {
+    "id": "annuity",
+    "text": "annuity",
+    "category": "money-matters"
+  },
+  {
+    "id": "non-refundable",
+    "text": "non-refundable",
+    "category": "money-matters"
+  },
+  {
+    "id": "mastercard",
+    "text": "MasterCard",
+    "category": "money-matters"
+  },
+  {
+    "id": "visa",
+    "text": "VISA",
+    "category": "money-matters"
+  },
+  {
+    "id": "distribution-costs",
+    "text": "distribution costs",
+    "category": "money-matters"
+  },
+  {
+    "id": "income",
+    "text": "income",
+    "category": "money-matters"
+  },
+  {
+    "id": "finance-department",
+    "text": "finance department",
+    "category": "money-matters"
+  },
+  {
+    "id": "family-finances",
+    "text": "family finances",
+    "category": "money-matters"
+  },
+  {
+    "id": "duty-free-store",
+    "text": "duty-free store",
+    "category": "money-matters"
+  },
+  {
+    "id": "science",
+    "text": "science",
+    "category": "subjects"
+  },
+  {
+    "id": "politics",
+    "text": "politics",
+    "category": "subjects"
+  },
+  {
+    "id": "history",
+    "text": "history",
+    "category": "subjects"
+  },
+  {
+    "id": "biology",
+    "text": "biology",
+    "category": "subjects"
+  },
+  {
+    "id": "architecture",
+    "text": "architecture",
+    "category": "subjects"
+  },
+  {
+    "id": "law",
+    "text": "law",
+    "category": "subjects"
+  },
+  {
+    "id": "geography",
+    "text": "geography",
+    "category": "subjects"
+  },
+  {
+    "id": "archaeology",
+    "text": "archaeology",
+    "category": "subjects",
+    "alt": [
+      "archeology"
+    ]
+  },
+  {
+    "id": "literature",
+    "text": "literature",
+    "category": "subjects"
+  },
+  {
+    "id": "business-management",
+    "text": "business management",
+    "category": "subjects"
+  },
+  {
+    "id": "agriculture",
+    "text": "agriculture",
+    "category": "subjects"
+  },
+  {
+    "id": "statistics",
+    "text": "statistics",
+    "category": "subjects"
+  },
+  {
+    "id": "mathematics",
+    "text": "mathematics",
+    "category": "subjects"
+  },
+  {
+    "id": "logic",
+    "text": "logic",
+    "category": "subjects"
+  },
+  {
+    "id": "physics",
+    "text": "physics",
+    "category": "subjects"
+  },
+  {
+    "id": "psychology",
+    "text": "psychology",
+    "category": "subjects"
+  },
+  {
+    "id": "anthropology",
+    "text": "anthropology",
+    "category": "subjects"
+  },
+  {
+    "id": "economics",
+    "text": "economics",
+    "category": "subjects"
+  },
+  {
+    "id": "philosophy",
+    "text": "philosophy",
+    "category": "subjects"
+  },
+  {
+    "id": "performing-arts",
+    "text": "performing arts",
+    "category": "subjects"
+  },
+  {
+    "id": "visual-arts",
+    "text": "visual arts",
+    "category": "subjects"
+  },
+  {
+    "id": "chemistry",
+    "text": "chemistry",
+    "category": "subjects"
+  },
+  {
+    "id": "humanities",
+    "text": "humanities",
+    "category": "subjects"
+  },
+  {
+    "id": "course-outline",
+    "text": "course outline",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "group-discussion",
+    "text": "group discussion",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "handout",
+    "text": "handout",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "written-work",
+    "text": "written work",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "report-writing",
+    "text": "report writing",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "research",
+    "text": "research",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "proofreading",
+    "text": "proofreading",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "experiment",
+    "text": "experiment",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "experience",
+    "text": "experience",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "reference",
+    "text": "reference",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "textbook",
+    "text": "textbook",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "dictionary",
+    "text": "dictionary",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "laptop",
+    "text": "laptop",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "printer",
+    "text": "printer",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "student-advisor",
+    "text": "student advisor",
+    "category": "studying-at-college-university",
+    "alt": [
+      "student adviser"
+    ]
+  },
+  {
+    "id": "teamwork",
+    "text": "teamwork",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "module",
+    "text": "module",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "topic",
+    "text": "topic",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "assessment",
+    "text": "assessment",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "library",
+    "text": "library",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "department",
+    "text": "department",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "computer-centre",
+    "text": "computer centre",
+    "category": "studying-at-college-university",
+    "alt": [
+      "computer center"
+    ]
+  },
+  {
+    "id": "classroom",
+    "text": "classroom",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "lecture",
+    "text": "lecture",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "tutor",
+    "text": "tutor",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "main-hall",
+    "text": "main hall",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "attendance",
+    "text": "attendance",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "deadline",
+    "text": "deadline",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "give-a-talk",
+    "text": "give a talk",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "speech",
+    "text": "speech",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "computer-laboratory",
+    "text": "computer laboratory",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "certificate",
+    "text": "certificate",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "diploma",
+    "text": "diploma",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "placement-test",
+    "text": "placement test",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "overseas-students",
+    "text": "overseas students",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "full-time",
+    "text": "full-time",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "facilities",
+    "text": "facilities",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "college",
+    "text": "college",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "dining-room",
+    "text": "dining room",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "specialist",
+    "text": "specialist",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "knowledge",
+    "text": "knowledge",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "international",
+    "text": "international",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "accommodation",
+    "text": "accommodation",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "home-stay",
+    "text": "home stay",
+    "category": "studying-at-college-university",
+    "alt": [
+      "homestay"
+    ]
+  },
+  {
+    "id": "primary",
+    "text": "primary",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "secondary",
+    "text": "secondary",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "intermediate",
+    "text": "intermediate",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "media-room",
+    "text": "media room",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "resources-room",
+    "text": "resources room",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "staff",
+    "text": "staff",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "commencement",
+    "text": "commencement",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "dissertation",
+    "text": "dissertation",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "leaflet",
+    "text": "leaflet",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "faculty",
+    "text": "faculty",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "pupils",
+    "text": "pupils",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "pencil",
+    "text": "pencil",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "feedback",
+    "text": "feedback",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "tasks",
+    "text": "tasks",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "outcomes",
+    "text": "outcomes",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "advanced",
+    "text": "advanced",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "introductory",
+    "text": "introductory",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "extra-background",
+    "text": "extra background",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "higher-education",
+    "text": "higher education",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "guidelines",
+    "text": "guidelines",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "post-secondary",
+    "text": "post-secondary",
+    "category": "studying-at-college-university",
+    "alt": [
+      "postsecondary"
+    ]
+  },
+  {
+    "id": "supervisor",
+    "text": "supervisor",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "bachelors-degree",
+    "text": "bachelor's degree",
+    "category": "studying-at-college-university",
+    "alt": [
+      "bachelors degree"
+    ]
+  },
+  {
+    "id": "compound",
+    "text": "compound",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "vocabulary",
+    "text": "vocabulary",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "student-support-services",
+    "text": "student support services",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "student-retention",
+    "text": "student retention",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "publication",
+    "text": "publication",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "foreign-students",
+    "text": "foreign students",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "schedule",
+    "text": "schedule",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "school-reunion",
+    "text": "school reunion",
+    "category": "studying-at-college-university"
+  },
+  {
+    "id": "registrars-office",
+    "text": "registrar's office",
+    "category": "studying-at-college-university",
+    "alt": [
+      "registrars office"
+    ]
+  },
+  {
+    "id": "stationery",
+    "text": "stationery",
+    "category": "studying-at-college-university",
+    "hint": "writing paper, pens, and office supplies"
+  },
+  {
+    "id": "catalogue",
+    "text": "catalogue",
+    "category": "marketing",
+    "alt": [
+      "catalog"
+    ]
+  },
+  {
+    "id": "interview",
+    "text": "interview",
+    "category": "marketing"
+  },
+  {
+    "id": "newsletter",
+    "text": "newsletter",
+    "category": "marketing"
+  },
+  {
+    "id": "competition",
+    "text": "competition",
+    "category": "marketing"
+  },
+  {
+    "id": "tv-program",
+    "text": "TV program",
+    "category": "marketing",
+    "alt": [
+      "TV programme"
+    ]
+  },
+  {
+    "id": "strategies",
+    "text": "strategies",
+    "category": "marketing"
+  },
+  {
+    "id": "research-method",
+    "text": "research method",
+    "category": "marketing"
+  },
+  {
+    "id": "entertainment-industry",
+    "text": "entertainment industry",
+    "category": "marketing"
+  },
+  {
+    "id": "leadership",
+    "text": "leadership",
+    "category": "marketing"
+  },
+  {
+    "id": "management",
+    "text": "management",
+    "category": "marketing"
+  },
+  {
+    "id": "display",
+    "text": "display",
+    "category": "marketing"
+  },
+  {
+    "id": "products",
+    "text": "products",
+    "category": "marketing"
+  },
+  {
+    "id": "customer",
+    "text": "customer",
+    "category": "marketing"
+  },
+  {
+    "id": "special-offer",
+    "text": "special offer",
+    "category": "marketing"
+  },
+  {
+    "id": "collecting-data",
+    "text": "collecting data",
+    "category": "marketing"
+  },
+  {
+    "id": "questionnaire",
+    "text": "questionnaire",
+    "category": "marketing"
+  },
+  {
+    "id": "survey",
+    "text": "survey",
+    "category": "marketing"
+  },
+  {
+    "id": "mass-media",
+    "text": "mass media",
+    "category": "marketing"
+  },
+  {
+    "id": "statistic",
+    "text": "statistic",
+    "category": "marketing"
+  },
+  {
+    "id": "profit-margin",
+    "text": "profit margin",
+    "category": "marketing"
+  },
+  {
+    "id": "poll",
+    "text": "poll",
+    "category": "marketing",
+    "hint": "voting survey or opinion count"
+  },
+  {
+    "id": "business-card",
+    "text": "business card",
+    "category": "marketing"
+  },
+  {
+    "id": "training",
+    "text": "training",
+    "category": "marketing"
+  },
+  {
+    "id": "trainee",
+    "text": "trainee",
+    "category": "marketing"
+  },
+  {
+    "id": "merchandise",
+    "text": "merchandise",
+    "category": "marketing"
+  },
+  {
+    "id": "manufacture",
+    "text": "manufacture",
+    "category": "marketing"
+  },
+  {
+    "id": "recruitment",
+    "text": "recruitment",
+    "category": "marketing"
+  },
+  {
+    "id": "yoga",
+    "text": "yoga",
+    "category": "health"
+  },
+  {
+    "id": "tai-chi",
+    "text": "tai-chi",
+    "category": "health"
+  },
+  {
+    "id": "keep-fit",
+    "text": "keep-fit",
+    "category": "health"
+  },
+  {
+    "id": "salad-bar",
+    "text": "salad bar",
+    "category": "health"
+  },
+  {
+    "id": "vegetarian",
+    "text": "vegetarian",
+    "category": "health"
+  },
+  {
+    "id": "outdoor-activities",
+    "text": "outdoor activities",
+    "category": "health"
+  },
+  {
+    "id": "leisure-time",
+    "text": "leisure time",
+    "category": "health"
+  },
+  {
+    "id": "disease",
+    "text": "disease",
+    "category": "health"
+  },
+  {
+    "id": "meal",
+    "text": "meal",
+    "category": "health"
+  },
+  {
+    "id": "protein",
+    "text": "protein",
+    "category": "health"
+  },
+  {
+    "id": "balanced-diet",
+    "text": "balanced diet",
+    "category": "health"
+  },
+  {
+    "id": "food-pyramid",
+    "text": "food pyramid",
+    "category": "health"
+  },
+  {
+    "id": "vitamin",
+    "text": "vitamin",
+    "category": "health"
+  },
+  {
+    "id": "carbohydrates",
+    "text": "carbohydrates",
+    "category": "health"
+  },
+  {
+    "id": "rice",
+    "text": "rice",
+    "category": "health"
+  },
+  {
+    "id": "pasta",
+    "text": "pasta",
+    "category": "health"
+  },
+  {
+    "id": "potatoes",
+    "text": "potatoes",
+    "category": "health"
+  },
+  {
+    "id": "pizza",
+    "text": "pizza",
+    "category": "health"
+  },
+  {
+    "id": "tomatoes",
+    "text": "tomatoes",
+    "category": "health"
+  },
+  {
+    "id": "bread",
+    "text": "bread",
+    "category": "health"
+  },
+  {
+    "id": "cereals",
+    "text": "cereals",
+    "category": "health",
+    "hint": "grain crops or breakfast foods"
+  },
+  {
+    "id": "minerals",
+    "text": "minerals",
+    "category": "health"
+  },
+  {
+    "id": "zinc",
+    "text": "zinc",
+    "category": "health"
+  },
+  {
+    "id": "meat",
+    "text": "meat",
+    "category": "health",
+    "hint": "animal flesh eaten as food"
+  },
+  {
+    "id": "seafood",
+    "text": "seafood",
+    "category": "health"
+  },
+  {
+    "id": "eggs",
+    "text": "eggs",
+    "category": "health"
+  },
+  {
+    "id": "beans",
+    "text": "beans",
+    "category": "health"
+  },
+  {
+    "id": "milk",
+    "text": "milk",
+    "category": "health"
+  },
+  {
+    "id": "cheese",
+    "text": "cheese",
+    "category": "health"
+  },
+  {
+    "id": "yoghurt",
+    "text": "yoghurt",
+    "category": "health",
+    "alt": [
+      "yogurt",
+      "yoghourt"
+    ]
+  },
+  {
+    "id": "fruit",
+    "text": "fruit",
+    "category": "health"
+  },
+  {
+    "id": "vegetables",
+    "text": "vegetables",
+    "category": "health"
+  },
+  {
+    "id": "citrus-fruits",
+    "text": "citrus fruits",
+    "category": "health"
+  },
+  {
+    "id": "green-pepper",
+    "text": "green pepper",
+    "category": "health"
+  },
+  {
+    "id": "blackcurrant",
+    "text": "blackcurrant",
+    "category": "health",
+    "alt": [
+      "black currant"
+    ]
+  },
+  {
+    "id": "nuts",
+    "text": "nuts",
+    "category": "health"
+  },
+  {
+    "id": "egg-yolk",
+    "text": "egg yolk",
+    "category": "health"
+  },
+  {
+    "id": "liver",
+    "text": "liver",
+    "category": "health"
+  },
+  {
+    "id": "medicine",
+    "text": "medicine",
+    "category": "health"
+  },
+  {
+    "id": "treatment",
+    "text": "treatment",
+    "category": "health"
+  },
+  {
+    "id": "remedy",
+    "text": "remedy",
+    "category": "health"
+  },
+  {
+    "id": "nursing-care",
+    "text": "nursing care",
+    "category": "health"
+  },
+  {
+    "id": "nursery",
+    "text": "nursery",
+    "category": "health"
+  },
+  {
+    "id": "regular-exercise",
+    "text": "regular exercise",
+    "category": "health"
+  },
+  {
+    "id": "field",
+    "text": "field",
+    "category": "nature"
+  },
+  {
+    "id": "footbridge",
+    "text": "footbridge",
+    "category": "nature"
+  },
+  {
+    "id": "environment",
+    "text": "environment",
+    "category": "nature"
+  },
+  {
+    "id": "waterfall",
+    "text": "waterfall",
+    "category": "nature"
+  },
+  {
+    "id": "river",
+    "text": "river",
+    "category": "nature"
+  },
+  {
+    "id": "mountain",
+    "text": "mountain",
+    "category": "nature"
+  },
+  {
+    "id": "forest",
+    "text": "forest",
+    "category": "nature"
+  },
+  {
+    "id": "village",
+    "text": "village",
+    "category": "nature"
+  },
+  {
+    "id": "coast",
+    "text": "coast",
+    "category": "nature"
+  },
+  {
+    "id": "reef",
+    "text": "reef",
+    "category": "nature"
+  },
+  {
+    "id": "lake",
+    "text": "lake",
+    "category": "nature"
+  },
+  {
+    "id": "valley",
+    "text": "valley",
+    "category": "nature"
+  },
+  {
+    "id": "hill",
+    "text": "hill",
+    "category": "nature"
+  },
+  {
+    "id": "cliff",
+    "text": "cliff",
+    "category": "nature"
+  },
+  {
+    "id": "island",
+    "text": "island",
+    "category": "nature"
+  },
+  {
+    "id": "peninsula",
+    "text": "peninsula",
+    "category": "nature"
+  },
+  {
+    "id": "earthquake",
+    "text": "earthquake",
+    "category": "nature"
+  },
+  {
+    "id": "avalanche",
+    "text": "avalanche",
+    "category": "nature"
+  },
+  {
+    "id": "tornado",
+    "text": "tornado",
+    "category": "nature"
+  },
+  {
+    "id": "typhoon",
+    "text": "typhoon",
+    "category": "nature"
+  },
+  {
+    "id": "desertification",
+    "text": "desertification",
+    "category": "nature"
+  },
+  {
+    "id": "volcano",
+    "text": "volcano",
+    "category": "nature"
+  },
+  {
+    "id": "disaster",
+    "text": "disaster",
+    "category": "nature"
+  },
+  {
+    "id": "catastrophe",
+    "text": "catastrophe",
+    "category": "nature"
+  },
+  {
+    "id": "erosion",
+    "text": "erosion",
+    "category": "nature"
+  },
+  {
+    "id": "landslides",
+    "text": "landslides",
+    "category": "nature"
+  },
+  {
+    "id": "storm",
+    "text": "storm",
+    "category": "nature"
+  },
+  {
+    "id": "flood",
+    "text": "flood",
+    "category": "nature"
+  },
+  {
+    "id": "hurricane",
+    "text": "hurricane",
+    "category": "nature"
+  },
+  {
+    "id": "pond",
+    "text": "pond",
+    "category": "nature"
+  },
+  {
+    "id": "jungle",
+    "text": "jungle",
+    "category": "nature"
+  },
+  {
+    "id": "oasis",
+    "text": "oasis",
+    "category": "nature"
+  },
+  {
+    "id": "dam",
+    "text": "dam",
+    "category": "nature",
+    "hint": "barrier built across a river to hold water"
+  },
+  {
+    "id": "canyon",
+    "text": "canyon",
+    "category": "nature"
+  },
+  {
+    "id": "greenhouse-effect",
+    "text": "greenhouse effect",
+    "category": "the-environment"
+  },
+  {
+    "id": "acid-rain",
+    "text": "acid rain",
+    "category": "the-environment"
+  },
+  {
+    "id": "global-warming",
+    "text": "global warming",
+    "category": "the-environment"
+  },
+  {
+    "id": "carbon-dioxide",
+    "text": "carbon dioxide",
+    "category": "the-environment"
+  },
+  {
+    "id": "burning-fossils",
+    "text": "burning fossils",
+    "category": "the-environment",
+    "alt": [
+      "burning fossil"
+    ]
+  },
+  {
+    "id": "exhaust-fumes",
+    "text": "exhaust fumes",
+    "category": "the-environment"
+  },
+  {
+    "id": "deforestation",
+    "text": "deforestation",
+    "category": "the-environment"
+  },
+  {
+    "id": "nitrogen-oxide",
+    "text": "nitrogen oxide",
+    "category": "the-environment"
+  },
+  {
+    "id": "smog",
+    "text": "smog",
+    "category": "the-environment"
+  },
+  {
+    "id": "climate",
+    "text": "climate",
+    "category": "the-environment"
+  },
+  {
+    "id": "pollution",
+    "text": "pollution",
+    "category": "the-environment"
+  },
+  {
+    "id": "temperature",
+    "text": "temperature",
+    "category": "the-environment"
+  },
+  {
+    "id": "power-plants",
+    "text": "power plants",
+    "category": "the-environment"
+  },
+  {
+    "id": "landfill",
+    "text": "landfill",
+    "category": "the-environment"
+  },
+  {
+    "id": "cattle",
+    "text": "cattle",
+    "category": "the-environment"
+  },
+  {
+    "id": "wind-turbine",
+    "text": "wind turbine",
+    "category": "the-environment"
+  },
+  {
+    "id": "solar-power",
+    "text": "solar power",
+    "category": "the-environment"
+  },
+  {
+    "id": "hydroelectric-power",
+    "text": "hydroelectric power",
+    "category": "the-environment"
+  },
+  {
+    "id": "renewable",
+    "text": "renewable",
+    "category": "the-environment"
+  },
+  {
+    "id": "source-of-energy",
+    "text": "source of energy",
+    "category": "the-environment"
+  },
+  {
+    "id": "reliable",
+    "text": "reliable",
+    "category": "the-environment"
+  },
+  {
+    "id": "solar-panels",
+    "text": "solar panels",
+    "category": "the-environment"
+  },
+  {
+    "id": "environmentally-friendly",
+    "text": "environmentally friendly",
+    "category": "the-environment"
+  },
+  {
+    "id": "oxygen",
+    "text": "oxygen",
+    "category": "the-environment"
+  },
+  {
+    "id": "chemical-free",
+    "text": "chemical-free",
+    "category": "the-environment"
+  },
+  {
+    "id": "desert",
+    "text": "desert",
+    "category": "the-environment",
+    "hint": "dry, barren land (single s)"
+  },
+  {
+    "id": "degradation",
+    "text": "degradation",
+    "category": "the-environment"
+  },
+  {
+    "id": "vegetation",
+    "text": "vegetation",
+    "category": "the-environment"
+  },
+  {
+    "id": "sea-level",
+    "text": "sea level",
+    "category": "the-environment"
+  },
+  {
+    "id": "ocean-currents",
+    "text": "ocean currents",
+    "category": "the-environment"
+  },
+  {
+    "id": "soil-conditioner",
+    "text": "soil conditioner",
+    "category": "the-environment"
+  },
+  {
+    "id": "coal",
+    "text": "coal",
+    "category": "the-environment",
+    "hint": "dark fossil fuel rock"
+  },
+  {
+    "id": "fossil-fuels",
+    "text": "fossil fuels",
+    "category": "the-environment"
+  },
+  {
+    "id": "firewood",
+    "text": "firewood",
+    "category": "the-environment"
+  },
+  {
+    "id": "drought",
+    "text": "drought",
+    "category": "the-environment"
+  },
+  {
+    "id": "contaminated",
+    "text": "contaminated",
+    "category": "the-environment"
+  },
+  {
+    "id": "birds-of-prey",
+    "text": "birds of prey",
+    "category": "the-animal-kingdom"
+  },
+  {
+    "id": "seabirds",
+    "text": "seabirds",
+    "category": "the-animal-kingdom"
+  },
+  {
+    "id": "poultry-and-game",
+    "text": "poultry and game",
+    "category": "the-animal-kingdom"
+  },
+  {
+    "id": "mammals",
+    "text": "mammals",
+    "category": "the-animal-kingdom"
+  },
+  {
+    "id": "cetacean",
+    "text": "cetacean",
+    "category": "the-animal-kingdom"
+  },
+  {
+    "id": "whale",
+    "text": "whale",
+    "category": "the-animal-kingdom"
+  },
+  {
+    "id": "primates",
+    "text": "primates",
+    "category": "the-animal-kingdom"
+  },
+  {
+    "id": "rodents",
+    "text": "rodents",
+    "category": "the-animal-kingdom"
+  },
+  {
+    "id": "fish",
+    "text": "fish",
+    "category": "the-animal-kingdom"
+  },
+  {
+    "id": "amphibian",
+    "text": "amphibian",
+    "category": "the-animal-kingdom"
+  },
+  {
+    "id": "reptile",
+    "text": "reptile",
+    "category": "the-animal-kingdom"
+  },
+  {
+    "id": "insects",
+    "text": "insects",
+    "category": "the-animal-kingdom"
+  },
+  {
+    "id": "octopus",
+    "text": "octopus",
+    "category": "the-animal-kingdom"
+  },
+  {
+    "id": "phylum",
+    "text": "phylum",
+    "category": "the-animal-kingdom"
+  },
+  {
+    "id": "class",
+    "text": "class",
+    "category": "the-animal-kingdom"
+  },
+  {
+    "id": "order",
+    "text": "order",
+    "category": "the-animal-kingdom"
+  },
+  {
+    "id": "family",
+    "text": "family",
+    "category": "the-animal-kingdom"
+  },
+  {
+    "id": "genus",
+    "text": "genus",
+    "category": "the-animal-kingdom"
+  },
+  {
+    "id": "species",
+    "text": "species",
+    "category": "the-animal-kingdom"
+  },
+  {
+    "id": "livestock",
+    "text": "livestock",
+    "category": "the-animal-kingdom"
+  },
+  {
+    "id": "creature",
+    "text": "creature",
+    "category": "the-animal-kingdom"
+  },
+  {
+    "id": "lion",
+    "text": "lion",
+    "category": "the-animal-kingdom"
+  },
+  {
+    "id": "penguin",
+    "text": "penguin",
+    "category": "the-animal-kingdom"
+  },
+  {
+    "id": "mushroom",
+    "text": "mushroom",
+    "category": "plants"
+  },
+  {
+    "id": "fungus",
+    "text": "fungus",
+    "category": "plants"
+  },
+  {
+    "id": "leaves",
+    "text": "leaves",
+    "category": "plants"
+  },
+  {
+    "id": "seed",
+    "text": "seed",
+    "category": "plants"
+  },
+  {
+    "id": "core",
+    "text": "core",
+    "category": "plants",
+    "hint": "central part of a fruit or stem"
+  },
+  {
+    "id": "bark",
+    "text": "bark",
+    "category": "plants"
+  },
+  {
+    "id": "trunk",
+    "text": "trunk",
+    "category": "plants"
+  },
+  {
+    "id": "twig",
+    "text": "twig",
+    "category": "plants"
+  },
+  {
+    "id": "branch",
+    "text": "branch",
+    "category": "plants"
+  },
+  {
+    "id": "flower",
+    "text": "flower",
+    "category": "plants",
+    "hint": "blossom of a plant"
+  },
+  {
+    "id": "stem",
+    "text": "stem",
+    "category": "plants"
+  },
+  {
+    "id": "roots",
+    "text": "roots",
+    "category": "plants"
+  },
+  {
+    "id": "cluster",
+    "text": "cluster",
+    "category": "plants"
+  },
+  {
+    "id": "fertilizer",
+    "text": "fertilizer",
+    "category": "plants",
+    "alt": [
+      "fertiliser"
+    ]
+  },
+  {
+    "id": "south-america",
+    "text": "South America",
+    "category": "continents"
+  },
+  {
+    "id": "north-america",
+    "text": "North America",
+    "category": "continents"
+  },
+  {
+    "id": "africa",
+    "text": "Africa",
+    "category": "continents"
+  },
+  {
+    "id": "asia",
+    "text": "Asia",
+    "category": "continents"
+  },
+  {
+    "id": "europe",
+    "text": "Europe",
+    "category": "continents"
+  },
+  {
+    "id": "australia",
+    "text": "Australia",
+    "category": "continents"
+  },
+  {
+    "id": "antarctica",
+    "text": "Antarctica",
+    "category": "continents"
+  },
+  {
+    "id": "egypt",
+    "text": "Egypt",
+    "category": "countries"
+  },
+  {
+    "id": "mexico",
+    "text": "Mexico",
+    "category": "countries"
+  },
+  {
+    "id": "france",
+    "text": "France",
+    "category": "countries"
+  },
+  {
+    "id": "indonesia",
+    "text": "Indonesia",
+    "category": "countries"
+  },
+  {
+    "id": "turkey",
+    "text": "Turkey",
+    "category": "countries",
+    "alt": [
+      "Türkiye",
+      "Turkiye"
+    ]
+  },
+  {
+    "id": "england",
+    "text": "England",
+    "category": "countries"
+  },
+  {
+    "id": "germany",
+    "text": "Germany",
+    "category": "countries"
+  },
+  {
+    "id": "china",
+    "text": "China",
+    "category": "countries"
+  },
+  {
+    "id": "greece",
+    "text": "Greece",
+    "category": "countries"
+  },
+  {
+    "id": "brazil",
+    "text": "Brazil",
+    "category": "countries"
+  },
+  {
+    "id": "india",
+    "text": "India",
+    "category": "countries"
+  },
+  {
+    "id": "north-korea",
+    "text": "North Korea",
+    "category": "countries"
+  },
+  {
+    "id": "malaysia",
+    "text": "Malaysia",
+    "category": "countries"
+  },
+  {
+    "id": "new-zealand",
+    "text": "New Zealand",
+    "category": "countries"
+  },
+  {
+    "id": "nigeria",
+    "text": "Nigeria",
+    "category": "countries"
+  },
+  {
+    "id": "pakistan",
+    "text": "Pakistan",
+    "category": "countries"
+  },
+  {
+    "id": "singapore",
+    "text": "Singapore",
+    "category": "countries"
+  },
+  {
+    "id": "switzerland",
+    "text": "Switzerland",
+    "category": "countries"
+  },
+  {
+    "id": "united-kingdom",
+    "text": "United Kingdom",
+    "category": "countries"
+  },
+  {
+    "id": "italy",
+    "text": "Italy",
+    "category": "countries"
+  },
+  {
+    "id": "the-dominican-republic",
+    "text": "the Dominican Republic",
+    "category": "countries",
+    "alt": [
+      "Dominican Republic"
+    ]
+  },
+  {
+    "id": "the-philippines",
+    "text": "the Philippines",
+    "category": "countries",
+    "alt": [
+      "Philippines"
+    ]
+  },
+  {
+    "id": "denmark",
+    "text": "Denmark",
+    "category": "countries"
+  },
+  {
+    "id": "linguistics",
+    "text": "linguistics",
+    "category": "languages"
+  },
+  {
+    "id": "bilingual",
+    "text": "bilingual",
+    "category": "languages"
+  },
+  {
+    "id": "trilingual",
+    "text": "trilingual",
+    "category": "languages"
+  },
+  {
+    "id": "polyglot",
+    "text": "polyglot",
+    "category": "languages"
+  },
+  {
+    "id": "portuguese",
+    "text": "Portuguese",
+    "category": "languages"
+  },
+  {
+    "id": "mandarin",
+    "text": "Mandarin",
+    "category": "languages"
+  },
+  {
+    "id": "bengali",
+    "text": "Bengali",
+    "category": "languages"
+  },
+  {
+    "id": "chinese",
+    "text": "Chinese",
+    "category": "languages"
+  },
+  {
+    "id": "hindi",
+    "text": "Hindi",
+    "category": "languages"
+  },
+  {
+    "id": "russian",
+    "text": "Russian",
+    "category": "languages"
+  },
+  {
+    "id": "japanese",
+    "text": "Japanese",
+    "category": "languages"
+  },
+  {
+    "id": "german",
+    "text": "German",
+    "category": "languages"
+  },
+  {
+    "id": "punjabi",
+    "text": "Punjabi",
+    "category": "languages",
+    "alt": [
+      "Panjabi"
+    ]
+  },
+  {
+    "id": "thai",
+    "text": "Thai",
+    "category": "languages"
+  },
+  {
+    "id": "persian",
+    "text": "Persian",
+    "category": "languages"
+  },
+  {
+    "id": "filipino",
+    "text": "Filipino",
+    "category": "languages"
+  },
+  {
+    "id": "french",
+    "text": "French",
+    "category": "languages"
+  },
+  {
+    "id": "italian",
+    "text": "Italian",
+    "category": "languages"
+  },
+  {
+    "id": "greek",
+    "text": "Greek",
+    "category": "languages"
+  },
+  {
+    "id": "dome",
+    "text": "dome",
+    "category": "architecture-and-buildings"
+  },
+  {
+    "id": "palace",
+    "text": "palace",
+    "category": "architecture-and-buildings"
+  },
+  {
+    "id": "fort",
+    "text": "fort",
+    "category": "architecture-and-buildings",
+    "hint": "defensive military building"
+  },
+  {
+    "id": "castle",
+    "text": "castle",
+    "category": "architecture-and-buildings"
+  },
+  {
+    "id": "glasshouse",
+    "text": "glasshouse",
+    "category": "architecture-and-buildings"
+  },
+  {
+    "id": "pyramid",
+    "text": "pyramid",
+    "category": "architecture-and-buildings"
+  },
+  {
+    "id": "log-cabin",
+    "text": "log cabin",
+    "category": "architecture-and-buildings"
+  },
+  {
+    "id": "lighthouse",
+    "text": "lighthouse",
+    "category": "architecture-and-buildings"
+  },
+  {
+    "id": "hut",
+    "text": "hut",
+    "category": "architecture-and-buildings"
+  },
+  {
+    "id": "skyscraper",
+    "text": "skyscraper",
+    "category": "architecture-and-buildings"
+  },
+  {
+    "id": "sculpture",
+    "text": "sculpture",
+    "category": "architecture-and-buildings"
+  },
+  {
+    "id": "semi-detached-house",
+    "text": "semi-detached house",
+    "category": "homes"
+  },
+  {
+    "id": "duplex",
+    "text": "duplex",
+    "category": "homes"
+  },
+  {
+    "id": "terraced-house",
+    "text": "terraced house",
+    "category": "homes"
+  },
+  {
+    "id": "town-house",
+    "text": "town house",
+    "category": "homes",
+    "alt": [
+      "townhouse"
+    ]
+  },
+  {
+    "id": "row-house",
+    "text": "row house",
+    "category": "homes"
+  },
+  {
+    "id": "bungalow",
+    "text": "bungalow",
+    "category": "homes"
+  },
+  {
+    "id": "thatched-cottage",
+    "text": "thatched cottage",
+    "category": "homes"
+  },
+  {
+    "id": "mobile-home",
+    "text": "mobile home",
+    "category": "homes"
+  },
+  {
+    "id": "houseboat",
+    "text": "houseboat",
+    "category": "homes"
+  },
+  {
+    "id": "block-of-flats",
+    "text": "block of flats",
+    "category": "homes"
+  },
+  {
+    "id": "apartment-building",
+    "text": "apartment building",
+    "category": "homes"
+  },
+  {
+    "id": "condominium",
+    "text": "condominium",
+    "category": "homes"
+  },
+  {
+    "id": "chimney",
+    "text": "chimney",
+    "category": "homes"
+  },
+  {
+    "id": "bedroom",
+    "text": "bedroom",
+    "category": "homes"
+  },
+  {
+    "id": "basement",
+    "text": "basement",
+    "category": "homes"
+  },
+  {
+    "id": "landlord",
+    "text": "landlord",
+    "category": "homes"
+  },
+  {
+    "id": "tenant",
+    "text": "tenant",
+    "category": "homes"
+  },
+  {
+    "id": "rent",
+    "text": "rent",
+    "category": "homes"
+  },
+  {
+    "id": "lease",
+    "text": "lease",
+    "category": "homes"
+  },
+  {
+    "id": "neighborhood",
+    "text": "neighborhood",
+    "category": "homes",
+    "alt": [
+      "neighbourhood"
+    ]
+  },
+  {
+    "id": "suburb",
+    "text": "suburb",
+    "category": "homes"
+  },
+  {
+    "id": "sofa",
+    "text": "sofa",
+    "category": "homes"
+  },
+  {
+    "id": "coffee-table",
+    "text": "coffee table",
+    "category": "homes"
+  },
+  {
+    "id": "dormitory",
+    "text": "dormitory",
+    "category": "homes"
+  },
+  {
+    "id": "storey",
+    "text": "storey",
+    "category": "homes",
+    "alt": [
+      "story"
+    ],
+    "hint": "level or floor of a building"
+  },
+  {
+    "id": "kitchen",
+    "text": "kitchen",
+    "category": "homes"
+  },
+  {
+    "id": "refrigerator",
+    "text": "refrigerator",
+    "category": "homes"
+  },
+  {
+    "id": "microwave",
+    "text": "microwave",
+    "category": "homes"
+  },
+  {
+    "id": "ground-floor",
+    "text": "ground floor",
+    "category": "homes"
+  },
+  {
+    "id": "oven",
+    "text": "oven",
+    "category": "homes"
+  },
+  {
+    "id": "hallway",
+    "text": "hallway",
+    "category": "homes"
+  },
+  {
+    "id": "insurance",
+    "text": "insurance",
+    "category": "homes"
+  },
+  {
+    "id": "cities",
+    "text": "cities",
+    "category": "in-the-city"
+  },
+  {
+    "id": "street",
+    "text": "street",
+    "category": "in-the-city"
+  },
+  {
+    "id": "lane",
+    "text": "lane",
+    "category": "in-the-city",
+    "hint": "narrow road or street"
+  },
+  {
+    "id": "city-centre",
+    "text": "city centre",
+    "category": "in-the-city",
+    "alt": [
+      "city center"
+    ]
+  },
+  {
+    "id": "central-station",
+    "text": "central station",
+    "category": "in-the-city"
+  },
+  {
+    "id": "car-park",
+    "text": "car park",
+    "category": "in-the-city"
+  },
+  {
+    "id": "department-store",
+    "text": "department store",
+    "category": "in-the-city"
+  },
+  {
+    "id": "bridge",
+    "text": "bridge",
+    "category": "in-the-city"
+  },
+  {
+    "id": "temple",
+    "text": "temple",
+    "category": "in-the-city"
+  },
+  {
+    "id": "embassy",
+    "text": "embassy",
+    "category": "in-the-city"
+  },
+  {
+    "id": "road-system",
+    "text": "road system",
+    "category": "in-the-city"
+  },
+  {
+    "id": "hospital",
+    "text": "hospital",
+    "category": "in-the-city"
+  },
+  {
+    "id": "garden",
+    "text": "garden",
+    "category": "in-the-city"
+  },
+  {
+    "id": "avenue",
+    "text": "avenue",
+    "category": "in-the-city"
+  },
+  {
+    "id": "clinic",
+    "text": "clinic",
+    "category": "workplaces"
+  },
+  {
+    "id": "dentist",
+    "text": "dentist",
+    "category": "workplaces"
+  },
+  {
+    "id": "reception",
+    "text": "reception",
+    "category": "workplaces"
+  },
+  {
+    "id": "appointment",
+    "text": "appointment",
+    "category": "workplaces"
+  },
+  {
+    "id": "staff-selection",
+    "text": "staff selection",
+    "category": "workplaces"
+  },
+  {
+    "id": "colleague",
+    "text": "colleague",
+    "category": "workplaces"
+  },
+  {
+    "id": "workshop",
+    "text": "workshop",
+    "category": "workplaces"
+  },
+  {
+    "id": "showroom",
+    "text": "showroom",
+    "category": "workplaces"
+  },
+  {
+    "id": "information-desk",
+    "text": "information desk",
+    "category": "workplaces"
+  },
+  {
+    "id": "employer",
+    "text": "employer",
+    "category": "workplaces"
+  },
+  {
+    "id": "employment",
+    "text": "employment",
+    "category": "workplaces"
+  },
+  {
+    "id": "unemployed",
+    "text": "unemployed",
+    "category": "workplaces"
+  },
+  {
+    "id": "technical-cooperation",
+    "text": "technical cooperation",
+    "category": "workplaces",
+    "alt": [
+      "technical co-operation"
+    ]
+  },
+  {
+    "id": "team-leaders",
+    "text": "team leaders",
+    "category": "workplaces"
+  },
+  {
+    "id": "stress",
+    "text": "stress",
+    "category": "workplaces"
+  },
+  {
+    "id": "ability",
+    "text": "ability",
+    "category": "workplaces"
+  },
+  {
+    "id": "vision",
+    "text": "vision",
+    "category": "workplaces"
+  },
+  {
+    "id": "confidence",
+    "text": "confidence",
+    "category": "workplaces"
+  },
+  {
+    "id": "employee",
+    "text": "employee",
+    "category": "workplaces"
+  },
+  {
+    "id": "internship",
+    "text": "internship",
+    "category": "workplaces"
+  },
+  {
+    "id": "reasonable",
+    "text": "reasonable",
+    "category": "rating-and-qualities"
+  },
+  {
+    "id": "satisfactory",
+    "text": "satisfactory",
+    "category": "rating-and-qualities"
+  },
+  {
+    "id": "dangerous",
+    "text": "dangerous",
+    "category": "rating-and-qualities"
+  },
+  {
+    "id": "safe",
+    "text": "safe",
+    "category": "rating-and-qualities"
+  },
+  {
+    "id": "strongly-recommended",
+    "text": "strongly recommended",
+    "category": "rating-and-qualities"
+  },
+  {
+    "id": "poor-quality",
+    "text": "poor quality",
+    "category": "rating-and-qualities"
+  },
+  {
+    "id": "satisfied",
+    "text": "satisfied",
+    "category": "rating-and-qualities"
+  },
+  {
+    "id": "disappointed",
+    "text": "disappointed",
+    "category": "rating-and-qualities"
+  },
+  {
+    "id": "efficient",
+    "text": "efficient",
+    "category": "rating-and-qualities"
+  },
+  {
+    "id": "luxurious",
+    "text": "luxurious",
+    "category": "rating-and-qualities"
+  },
+  {
+    "id": "colored",
+    "text": "colored",
+    "category": "rating-and-qualities",
+    "alt": [
+      "coloured"
+    ]
+  },
+  {
+    "id": "spotted",
+    "text": "spotted",
+    "category": "rating-and-qualities"
+  },
+  {
+    "id": "striped",
+    "text": "striped",
+    "category": "rating-and-qualities"
+  },
+  {
+    "id": "expensive",
+    "text": "expensive",
+    "category": "rating-and-qualities"
+  },
+  {
+    "id": "cheap",
+    "text": "cheap",
+    "category": "rating-and-qualities"
+  },
+  {
+    "id": "tourist",
+    "text": "tourist",
+    "category": "touring"
+  },
+  {
+    "id": "guided-tour",
+    "text": "guided tour",
+    "category": "touring"
+  },
+  {
+    "id": "ticket-office",
+    "text": "ticket office",
+    "category": "touring"
+  },
+  {
+    "id": "souvenir",
+    "text": "souvenir",
+    "category": "touring"
+  },
+  {
+    "id": "trip",
+    "text": "trip",
+    "category": "touring"
+  },
+  {
+    "id": "guest",
+    "text": "guest",
+    "category": "touring",
+    "hint": "visitor staying at a hotel or home"
+  },
+  {
+    "id": "reservation",
+    "text": "reservation",
+    "category": "touring"
+  },
+  {
+    "id": "view",
+    "text": "view",
+    "category": "touring"
+  },
+  {
+    "id": "culture",
+    "text": "culture",
+    "category": "touring"
+  },
+  {
+    "id": "memorable",
+    "text": "memorable",
+    "category": "touring"
+  },
+  {
+    "id": "single-double-bedded-room",
+    "text": "single/double bedded room",
+    "category": "touring",
+    "alt": [
+      "single double bedded room",
+      "single or double bedded room"
+    ],
+    "hint": "hotel room capacity option"
+  },
+  {
+    "id": "picnic",
+    "text": "picnic",
+    "category": "touring"
+  },
+  {
+    "id": "tourist-attraction",
+    "text": "tourist attraction",
+    "category": "touring"
+  },
+  {
+    "id": "hostel",
+    "text": "hostel",
+    "category": "touring"
+  },
+  {
+    "id": "suite",
+    "text": "suite",
+    "category": "touring",
+    "hint": "set of connected hotel rooms"
+  },
+  {
+    "id": "aquarium",
+    "text": "aquarium",
+    "category": "touring"
+  },
+  {
+    "id": "train",
+    "text": "train",
+    "category": "verbs"
+  },
+  {
+    "id": "develop",
+    "text": "develop",
+    "category": "verbs"
+  },
+  {
+    "id": "collect",
+    "text": "collect",
+    "category": "verbs"
+  },
+  {
+    "id": "supervise",
+    "text": "supervise",
+    "category": "verbs"
+  },
+  {
+    "id": "mark",
+    "text": "mark",
+    "category": "verbs"
+  },
+  {
+    "id": "edit",
+    "text": "edit",
+    "category": "verbs"
+  },
+  {
+    "id": "revise",
+    "text": "revise",
+    "category": "verbs"
+  },
+  {
+    "id": "exhibit",
+    "text": "exhibit",
+    "category": "verbs"
+  },
+  {
+    "id": "donate",
+    "text": "donate",
+    "category": "verbs"
+  },
+  {
+    "id": "surpass",
+    "text": "surpass",
+    "category": "verbs"
+  },
+  {
+    "id": "register",
+    "text": "register",
+    "category": "verbs"
+  },
+  {
+    "id": "support",
+    "text": "support",
+    "category": "verbs"
+  },
+  {
+    "id": "hunt",
+    "text": "hunt",
+    "category": "verbs"
+  },
+  {
+    "id": "persuade",
+    "text": "persuade",
+    "category": "verbs"
+  },
+  {
+    "id": "concentrate",
+    "text": "concentrate",
+    "category": "verbs"
+  },
+  {
+    "id": "discuss",
+    "text": "discuss",
+    "category": "verbs"
+  },
+  {
+    "id": "suggest",
+    "text": "suggest",
+    "category": "verbs"
+  },
+  {
+    "id": "arrange",
+    "text": "arrange",
+    "category": "verbs"
+  },
+  {
+    "id": "borrow",
+    "text": "borrow",
+    "category": "verbs"
+  },
+  {
+    "id": "immigrate",
+    "text": "immigrate",
+    "category": "verbs"
+  },
+  {
+    "id": "review",
+    "text": "review",
+    "category": "verbs"
+  },
+  {
+    "id": "learn",
+    "text": "learn",
+    "category": "verbs"
+  },
+  {
+    "id": "touch",
+    "text": "touch",
+    "category": "verbs"
+  },
+  {
+    "id": "energetic",
+    "text": "energetic",
+    "category": "adjectives"
+  },
+  {
+    "id": "social",
+    "text": "social",
+    "category": "adjectives"
+  },
+  {
+    "id": "ancient",
+    "text": "ancient",
+    "category": "adjectives"
+  },
+  {
+    "id": "necessary",
+    "text": "necessary",
+    "category": "adjectives"
+  },
+  {
+    "id": "fantastic",
+    "text": "fantastic",
+    "category": "adjectives"
+  },
+  {
+    "id": "exciting",
+    "text": "exciting",
+    "category": "adjectives"
+  },
+  {
+    "id": "fabulous",
+    "text": "fabulous",
+    "category": "adjectives"
+  },
+  {
+    "id": "dull",
+    "text": "dull",
+    "category": "adjectives"
+  },
+  {
+    "id": "comfortable",
+    "text": "comfortable",
+    "category": "adjectives"
+  },
+  {
+    "id": "convenient",
+    "text": "convenient",
+    "category": "adjectives"
+  },
+  {
+    "id": "suitable",
+    "text": "suitable",
+    "category": "adjectives"
+  },
+  {
+    "id": "affordable",
+    "text": "affordable",
+    "category": "adjectives"
+  },
+  {
+    "id": "voluntary",
+    "text": "voluntary",
+    "category": "adjectives"
+  },
+  {
+    "id": "mandatory",
+    "text": "mandatory",
+    "category": "adjectives"
+  },
+  {
+    "id": "compulsory",
+    "text": "compulsory",
+    "category": "adjectives"
+  },
+  {
+    "id": "temporary",
+    "text": "temporary",
+    "category": "adjectives"
+  },
+  {
+    "id": "permanent",
+    "text": "permanent",
+    "category": "adjectives"
+  },
+  {
+    "id": "immense",
+    "text": "immense",
+    "category": "adjectives"
+  },
+  {
+    "id": "vast",
+    "text": "vast",
+    "category": "adjectives"
+  },
+  {
+    "id": "salty",
+    "text": "salty",
+    "category": "adjectives"
+  },
+  {
+    "id": "extinct",
+    "text": "extinct",
+    "category": "adjectives"
+  },
+  {
+    "id": "vulnerable",
+    "text": "vulnerable",
+    "category": "adjectives"
+  },
+  {
+    "id": "pessimistic",
+    "text": "pessimistic",
+    "category": "adjectives"
+  },
+  {
+    "id": "optimistic",
+    "text": "optimistic",
+    "category": "adjectives"
+  },
+  {
+    "id": "realistic",
+    "text": "realistic",
+    "category": "adjectives"
+  },
+  {
+    "id": "practical",
+    "text": "practical",
+    "category": "adjectives"
+  },
+  {
+    "id": "knowledgeable",
+    "text": "knowledgeable",
+    "category": "adjectives"
+  },
+  {
+    "id": "flexible",
+    "text": "flexible",
+    "category": "adjectives"
+  },
+  {
+    "id": "confident",
+    "text": "confident",
+    "category": "adjectives"
+  },
+  {
+    "id": "western",
+    "text": "western",
+    "category": "adjectives"
+  },
+  {
+    "id": "intensive",
+    "text": "intensive",
+    "category": "adjectives"
+  },
+  {
+    "id": "tranquil",
+    "text": "tranquil",
+    "category": "adjectives"
+  },
+  {
+    "id": "spectacular",
+    "text": "spectacular",
+    "category": "adjectives"
+  },
+  {
+    "id": "intact",
+    "text": "intact",
+    "category": "adjectives"
+  },
+  {
+    "id": "various",
+    "text": "various",
+    "category": "adjectives"
+  },
+  {
+    "id": "orienteering",
+    "text": "orienteering",
+    "category": "hobbies"
+  },
+  {
+    "id": "caving",
+    "text": "caving",
+    "category": "hobbies"
+  },
+  {
+    "id": "spelunking",
+    "text": "spelunking",
+    "category": "hobbies"
+  },
+  {
+    "id": "archery",
+    "text": "archery",
+    "category": "hobbies"
+  },
+  {
+    "id": "ice-skating",
+    "text": "ice skating",
+    "category": "hobbies"
+  },
+  {
+    "id": "scuba-diving",
+    "text": "scuba-diving",
+    "category": "hobbies"
+  },
+  {
+    "id": "snorkeling",
+    "text": "snorkeling",
+    "category": "hobbies",
+    "alt": [
+      "snorkelling"
+    ]
+  },
+  {
+    "id": "skateboarding",
+    "text": "skateboarding",
+    "category": "hobbies"
+  },
+  {
+    "id": "bowls",
+    "text": "bowls",
+    "category": "hobbies"
+  },
+  {
+    "id": "darts",
+    "text": "darts",
+    "category": "hobbies"
+  },
+  {
+    "id": "golf",
+    "text": "golf",
+    "category": "hobbies"
+  },
+  {
+    "id": "billiards",
+    "text": "billiards",
+    "category": "hobbies"
+  },
+  {
+    "id": "photography",
+    "text": "photography",
+    "category": "hobbies"
+  },
+  {
+    "id": "painting",
+    "text": "painting",
+    "category": "hobbies"
+  },
+  {
+    "id": "pottery",
+    "text": "pottery",
+    "category": "hobbies"
+  },
+  {
+    "id": "woodcarving",
+    "text": "woodcarving",
+    "category": "hobbies",
+    "alt": [
+      "wood carving"
+    ]
+  },
+  {
+    "id": "gardening",
+    "text": "gardening",
+    "category": "hobbies"
+  },
+  {
+    "id": "stamp-collection",
+    "text": "stamp collection",
+    "category": "hobbies"
+  },
+  {
+    "id": "embroidery",
+    "text": "embroidery",
+    "category": "hobbies"
+  },
+  {
+    "id": "climbing",
+    "text": "climbing",
+    "category": "hobbies"
+  },
+  {
+    "id": "chess",
+    "text": "chess",
+    "category": "hobbies"
+  },
+  {
+    "id": "parachute",
+    "text": "parachute",
+    "category": "hobbies"
+  },
+  {
+    "id": "cricket",
+    "text": "cricket",
+    "category": "sports"
+  },
+  {
+    "id": "baseball",
+    "text": "baseball",
+    "category": "sports"
+  },
+  {
+    "id": "basketball",
+    "text": "basketball",
+    "category": "sports"
+  },
+  {
+    "id": "rugby",
+    "text": "rugby",
+    "category": "sports"
+  },
+  {
+    "id": "soccer",
+    "text": "soccer",
+    "category": "sports"
+  },
+  {
+    "id": "american-football",
+    "text": "American football",
+    "category": "sports"
+  },
+  {
+    "id": "hockey",
+    "text": "hockey",
+    "category": "sports"
+  },
+  {
+    "id": "swimming",
+    "text": "swimming",
+    "category": "sports"
+  },
+  {
+    "id": "tennis",
+    "text": "tennis",
+    "category": "sports"
+  },
+  {
+    "id": "squash",
+    "text": "squash",
+    "category": "sports"
+  },
+  {
+    "id": "badminton",
+    "text": "badminton",
+    "category": "sports"
+  },
+  {
+    "id": "ping-pong",
+    "text": "ping-pong",
+    "category": "sports"
+  },
+  {
+    "id": "field",
+    "text": "field",
+    "category": "sports"
+  },
+  {
+    "id": "court",
+    "text": "court",
+    "category": "sports",
+    "hint": "marked area for playing tennis or squash"
+  },
+  {
+    "id": "pitch",
+    "text": "pitch",
+    "category": "sports"
+  },
+  {
+    "id": "stadium",
+    "text": "stadium",
+    "category": "sports"
+  },
+  {
+    "id": "team",
+    "text": "team",
+    "category": "sports"
+  },
+  {
+    "id": "the-discus",
+    "text": "the discus",
+    "category": "sports",
+    "alt": [
+      "discus"
+    ]
+  },
+  {
+    "id": "the-javelin",
+    "text": "the javelin",
+    "category": "sports",
+    "alt": [
+      "javelin"
+    ]
+  },
+  {
+    "id": "the-hammer",
+    "text": "the hammer",
+    "category": "sports",
+    "alt": [
+      "hammer"
+    ]
+  },
+  {
+    "id": "the-high-jump",
+    "text": "the high jump",
+    "category": "sports",
+    "alt": [
+      "high jump"
+    ]
+  },
+  {
+    "id": "horse-racing",
+    "text": "horse racing",
+    "category": "sports"
+  },
+  {
+    "id": "show-jumping",
+    "text": "show jumping",
+    "category": "sports"
+  },
+  {
+    "id": "polo",
+    "text": "polo",
+    "category": "sports"
+  },
+  {
+    "id": "cycling",
+    "text": "cycling",
+    "category": "sports"
+  },
+  {
+    "id": "gymnasium",
+    "text": "gymnasium",
+    "category": "sports"
+  },
+  {
+    "id": "athlete",
+    "text": "athlete",
+    "category": "sports"
+  },
+  {
+    "id": "gym",
+    "text": "gym",
+    "category": "sports"
+  },
+  {
+    "id": "extreme-sports",
+    "text": "extreme sports",
+    "category": "sports"
+  },
+  {
+    "id": "paragliding",
+    "text": "paragliding",
+    "category": "sports"
+  },
+  {
+    "id": "hang-gliding",
+    "text": "hang-gliding",
+    "category": "sports"
+  },
+  {
+    "id": "skydiving",
+    "text": "skydiving",
+    "category": "sports"
+  },
+  {
+    "id": "abseiling",
+    "text": "abseiling",
+    "category": "sports"
+  },
+  {
+    "id": "snowboarding",
+    "text": "snowboarding",
+    "category": "sports"
+  },
+  {
+    "id": "bungee-jumping",
+    "text": "bungee jumping",
+    "category": "sports"
+  },
+  {
+    "id": "surfing",
+    "text": "surfing",
+    "category": "sports"
+  },
+  {
+    "id": "windsurfing",
+    "text": "windsurfing",
+    "category": "sports"
+  },
+  {
+    "id": "jet-skiing",
+    "text": "jet-skiing",
+    "category": "sports"
+  },
+  {
+    "id": "bodyboarding",
+    "text": "bodyboarding",
+    "category": "sports",
+    "alt": [
+      "body boarding"
+    ]
+  },
+  {
+    "id": "white-water-rafting",
+    "text": "white-water rafting",
+    "category": "sports"
+  },
+  {
+    "id": "kitesurfing",
+    "text": "kitesurfing",
+    "category": "sports",
+    "alt": [
+      "kite surfing"
+    ]
+  },
+  {
+    "id": "mountain-biking",
+    "text": "mountain biking",
+    "category": "sports"
+  },
+  {
+    "id": "jogging",
+    "text": "jogging",
+    "category": "sports"
+  },
+  {
+    "id": "press-up",
+    "text": "press-up",
+    "category": "sports"
+  },
+  {
+    "id": "push-up",
+    "text": "push-up",
+    "category": "sports"
+  },
+  {
+    "id": "barbell",
+    "text": "barbell",
+    "category": "sports"
+  },
+  {
+    "id": "treadmill",
+    "text": "treadmill",
+    "category": "sports"
+  },
+  {
+    "id": "judo",
+    "text": "judo",
+    "category": "sports"
+  },
+  {
+    "id": "recreation",
+    "text": "recreation",
+    "category": "sports"
+  },
+  {
+    "id": "snooker",
+    "text": "snooker",
+    "category": "sports"
+  },
+  {
+    "id": "walking",
+    "text": "walking",
+    "category": "sports"
+  },
+  {
+    "id": "championship",
+    "text": "championship",
+    "category": "sports"
+  },
+  {
+    "id": "canoeing",
+    "text": "canoeing",
+    "category": "sports"
+  },
+  {
+    "id": "refreshment",
+    "text": "refreshment",
+    "category": "sports"
+  },
+  {
+    "id": "square",
+    "text": "square",
+    "category": "shapes"
+  },
+  {
+    "id": "rectangular",
+    "text": "rectangular",
+    "category": "shapes"
+  },
+  {
+    "id": "triangular",
+    "text": "triangular",
+    "category": "shapes"
+  },
+  {
+    "id": "polygon",
+    "text": "polygon",
+    "category": "shapes"
+  },
+  {
+    "id": "oval",
+    "text": "oval",
+    "category": "shapes"
+  },
+  {
+    "id": "spherical",
+    "text": "spherical",
+    "category": "shapes"
+  },
+  {
+    "id": "spiral",
+    "text": "spiral",
+    "category": "shapes"
+  },
+  {
+    "id": "circular",
+    "text": "circular",
+    "category": "shapes"
+  },
+  {
+    "id": "curved",
+    "text": "curved",
+    "category": "shapes"
+  },
+  {
+    "id": "cylindrical",
+    "text": "cylindrical",
+    "category": "shapes"
+  },
+  {
+    "id": "width",
+    "text": "width",
+    "category": "measurement"
+  },
+  {
+    "id": "length",
+    "text": "length",
+    "category": "measurement"
+  },
+  {
+    "id": "altitude",
+    "text": "altitude",
+    "category": "measurement"
+  },
+  {
+    "id": "imperial-system",
+    "text": "imperial system",
+    "category": "measurement"
+  },
+  {
+    "id": "metric-system",
+    "text": "metric system",
+    "category": "measurement"
+  },
+  {
+    "id": "mass",
+    "text": "mass",
+    "category": "measurement"
+  },
+  {
+    "id": "depth",
+    "text": "depth",
+    "category": "measurement"
+  },
+  {
+    "id": "breadth",
+    "text": "breadth",
+    "category": "measurement"
+  },
+  {
+    "id": "height",
+    "text": "height",
+    "category": "measurement"
+  },
+  {
+    "id": "three-dimensions",
+    "text": "three dimensions",
+    "category": "measurement"
+  },
+  {
+    "id": "frequency",
+    "text": "frequency",
+    "category": "measurement"
+  },
+  {
+    "id": "cargo-plane",
+    "text": "cargo plane",
+    "category": "transportations"
+  },
+  {
+    "id": "shipment",
+    "text": "shipment",
+    "category": "transportations"
+  },
+  {
+    "id": "container-ship",
+    "text": "container ship",
+    "category": "transportations"
+  },
+  {
+    "id": "boat",
+    "text": "boat",
+    "category": "transportations"
+  },
+  {
+    "id": "lifeboat",
+    "text": "lifeboat",
+    "category": "transportations"
+  },
+  {
+    "id": "ferry",
+    "text": "ferry",
+    "category": "transportations"
+  },
+  {
+    "id": "hovercraft",
+    "text": "hovercraft",
+    "category": "transportations"
+  },
+  {
+    "id": "hydrofoil",
+    "text": "hydrofoil",
+    "category": "transportations"
+  },
+  {
+    "id": "liner",
+    "text": "liner",
+    "category": "transportations"
+  },
+  {
+    "id": "canal-boat",
+    "text": "canal boat",
+    "category": "transportations"
+  },
+  {
+    "id": "narrowboat",
+    "text": "narrowboat",
+    "category": "transportations",
+    "alt": [
+      "narrow boat"
+    ]
+  },
+  {
+    "id": "dinghy-sailing",
+    "text": "dinghy sailing",
+    "category": "transportations"
+  },
+  {
+    "id": "sailboat",
+    "text": "sailboat",
+    "category": "transportations",
+    "alt": [
+      "sail boat"
+    ]
+  },
+  {
+    "id": "paddle-steamer",
+    "text": "paddle steamer",
+    "category": "transportations"
+  },
+  {
+    "id": "cabin-cruiser",
+    "text": "cabin cruiser",
+    "category": "transportations"
+  },
+  {
+    "id": "rowing-boat",
+    "text": "rowing boat",
+    "category": "transportations"
+  },
+  {
+    "id": "rowboat",
+    "text": "rowboat",
+    "category": "transportations",
+    "alt": [
+      "row boat"
+    ]
+  },
+  {
+    "id": "kayak",
+    "text": "kayak",
+    "category": "transportations"
+  },
+  {
+    "id": "canoe",
+    "text": "canoe",
+    "category": "transportations"
+  },
+  {
+    "id": "punt",
+    "text": "punt",
+    "category": "transportations"
+  },
+  {
+    "id": "gondola",
+    "text": "gondola",
+    "category": "transportations"
+  },
+  {
+    "id": "aircraft",
+    "text": "aircraft",
+    "category": "transportations"
+  },
+  {
+    "id": "helicopter",
+    "text": "helicopter",
+    "category": "transportations"
+  },
+  {
+    "id": "seaplane",
+    "text": "seaplane",
+    "category": "transportations",
+    "alt": [
+      "sea plane"
+    ]
+  },
+  {
+    "id": "airship",
+    "text": "airship",
+    "category": "transportations"
+  },
+  {
+    "id": "hot-air-balloon",
+    "text": "hot-air balloon",
+    "category": "transportations"
+  },
+  {
+    "id": "airport",
+    "text": "airport",
+    "category": "transportations"
+  },
+  {
+    "id": "crew",
+    "text": "crew",
+    "category": "transportations"
+  },
+  {
+    "id": "passenger",
+    "text": "passenger",
+    "category": "transportations"
+  },
+  {
+    "id": "platform",
+    "text": "platform",
+    "category": "transportations"
+  },
+  {
+    "id": "hire-a-car",
+    "text": "hire a car",
+    "category": "transportations"
+  },
+  {
+    "id": "automobile",
+    "text": "automobile",
+    "category": "transportations"
+  },
+  {
+    "id": "double-decker-bus",
+    "text": "double-decker bus",
+    "category": "vehicles"
+  },
+  {
+    "id": "single-decker",
+    "text": "single-decker",
+    "category": "vehicles"
+  },
+  {
+    "id": "minibus",
+    "text": "minibus",
+    "category": "vehicles"
+  },
+  {
+    "id": "school-bus",
+    "text": "school bus",
+    "category": "vehicles"
+  },
+  {
+    "id": "coach",
+    "text": "coach",
+    "category": "vehicles"
+  },
+  {
+    "id": "truck",
+    "text": "truck",
+    "category": "vehicles"
+  },
+  {
+    "id": "tanker",
+    "text": "tanker",
+    "category": "vehicles"
+  },
+  {
+    "id": "van",
+    "text": "van",
+    "category": "vehicles"
+  },
+  {
+    "id": "lorry",
+    "text": "lorry",
+    "category": "vehicles"
+  },
+  {
+    "id": "transporter",
+    "text": "transporter",
+    "category": "vehicles"
+  },
+  {
+    "id": "forklift-truck",
+    "text": "forklift truck",
+    "category": "vehicles"
+  },
+  {
+    "id": "tow-truck",
+    "text": "tow truck",
+    "category": "vehicles"
+  },
+  {
+    "id": "breakdown-truck",
+    "text": "breakdown truck",
+    "category": "vehicles"
+  },
+  {
+    "id": "pickup",
+    "text": "pickup",
+    "category": "vehicles",
+    "alt": [
+      "pick-up"
+    ]
+  },
+  {
+    "id": "jeep",
+    "text": "jeep",
+    "category": "vehicles"
+  },
+  {
+    "id": "caravan",
+    "text": "caravan",
+    "category": "vehicles"
+  },
+  {
+    "id": "camper",
+    "text": "camper",
+    "category": "vehicles"
+  },
+  {
+    "id": "tractor",
+    "text": "tractor",
+    "category": "vehicles"
+  },
+  {
+    "id": "taxi",
+    "text": "taxi",
+    "category": "vehicles"
+  },
+  {
+    "id": "cab",
+    "text": "cab",
+    "category": "vehicles"
+  },
+  {
+    "id": "tram",
+    "text": "tram",
+    "category": "vehicles"
+  },
+  {
+    "id": "underground",
+    "text": "underground",
+    "category": "vehicles"
+  },
+  {
+    "id": "subway",
+    "text": "subway",
+    "category": "vehicles"
+  },
+  {
+    "id": "steam-train",
+    "text": "steam train",
+    "category": "vehicles"
+  },
+  {
+    "id": "freight-train",
+    "text": "freight train",
+    "category": "vehicles"
+  },
+  {
+    "id": "goods-train",
+    "text": "goods train",
+    "category": "vehicles"
+  },
+  {
+    "id": "humid",
+    "text": "humid",
+    "category": "weather"
+  },
+  {
+    "id": "hot",
+    "text": "hot",
+    "category": "weather"
+  },
+  {
+    "id": "sticky",
+    "text": "sticky",
+    "category": "weather"
+  },
+  {
+    "id": "breeze",
+    "text": "breeze",
+    "category": "weather"
+  },
+  {
+    "id": "chilly",
+    "text": "chilly",
+    "category": "weather"
+  },
+  {
+    "id": "cold",
+    "text": "cold",
+    "category": "weather"
+  },
+  {
+    "id": "cool",
+    "text": "cool",
+    "category": "weather"
+  },
+  {
+    "id": "dry",
+    "text": "dry",
+    "category": "weather"
+  },
+  {
+    "id": "dusty",
+    "text": "dusty",
+    "category": "weather"
+  },
+  {
+    "id": "freezing",
+    "text": "freezing",
+    "category": "weather"
+  },
+  {
+    "id": "warm",
+    "text": "warm",
+    "category": "weather"
+  },
+  {
+    "id": "wet",
+    "text": "wet",
+    "category": "weather"
+  },
+  {
+    "id": "weather-forecast",
+    "text": "weather forecast",
+    "category": "weather"
+  },
+  {
+    "id": "antenna",
+    "text": "antenna",
+    "category": "weather"
+  },
+  {
+    "id": "moisture",
+    "text": "moisture",
+    "category": "weather"
+  },
+  {
+    "id": "local-library",
+    "text": "local library",
+    "category": "places"
+  },
+  {
+    "id": "swimming-pool",
+    "text": "swimming pool",
+    "category": "places"
+  },
+  {
+    "id": "cafeteria",
+    "text": "cafeteria",
+    "category": "places"
+  },
+  {
+    "id": "cottage",
+    "text": "cottage",
+    "category": "places"
+  },
+  {
+    "id": "parliament",
+    "text": "parliament",
+    "category": "places"
+  },
+  {
+    "id": "accommodation",
+    "text": "accommodation",
+    "category": "places"
+  },
+  {
+    "id": "restaurant",
+    "text": "restaurant",
+    "category": "places"
+  },
+  {
+    "id": "canteen",
+    "text": "canteen",
+    "category": "places"
+  },
+  {
+    "id": "cafe",
+    "text": "cafe",
+    "category": "places",
+    "alt": [
+      "café"
+    ]
+  },
+  {
+    "id": "bookshop",
+    "text": "bookshop",
+    "category": "places"
+  },
+  {
+    "id": "sports-centre",
+    "text": "sports centre",
+    "category": "places",
+    "alt": [
+      "sports center"
+    ]
+  },
+  {
+    "id": "city-council",
+    "text": "city council",
+    "category": "places"
+  },
+  {
+    "id": "dance-studio",
+    "text": "dance studio",
+    "category": "places"
+  },
+  {
+    "id": "park",
+    "text": "park",
+    "category": "places"
+  },
+  {
+    "id": "conversation-club",
+    "text": "conversation club",
+    "category": "places"
+  },
+  {
+    "id": "kindergarten",
+    "text": "kindergarten",
+    "category": "places"
+  },
+  {
+    "id": "helmet",
+    "text": "helmet",
+    "category": "equipment-and-tools"
+  },
+  {
+    "id": "light",
+    "text": "light",
+    "category": "equipment-and-tools"
+  },
+  {
+    "id": "musical-instrument",
+    "text": "musical instrument",
+    "category": "equipment-and-tools"
+  },
+  {
+    "id": "cassette",
+    "text": "cassette",
+    "category": "equipment-and-tools"
+  },
+  {
+    "id": "silicon-chip",
+    "text": "silicon chip",
+    "category": "equipment-and-tools"
+  },
+  {
+    "id": "digital-monitor",
+    "text": "digital monitor",
+    "category": "equipment-and-tools"
+  },
+  {
+    "id": "gadget",
+    "text": "gadget",
+    "category": "equipment-and-tools"
+  },
+  {
+    "id": "device",
+    "text": "device",
+    "category": "equipment-and-tools"
+  },
+  {
+    "id": "screen",
+    "text": "screen",
+    "category": "equipment-and-tools"
+  },
+  {
+    "id": "brakes",
+    "text": "brakes",
+    "category": "equipment-and-tools",
+    "hint": "stopping mechanism on a vehicle or bike"
+  },
+  {
+    "id": "wheels",
+    "text": "wheels",
+    "category": "equipment-and-tools"
+  },
+  {
+    "id": "mechanical-pencil",
+    "text": "mechanical pencil",
+    "category": "equipment-and-tools"
+  },
+  {
+    "id": "disk",
+    "text": "disk",
+    "category": "equipment-and-tools",
+    "alt": [
+      "disc"
+    ],
+    "hint": "flat storage plate or medium"
+  },
+  {
+    "id": "backpack",
+    "text": "backpack",
+    "category": "equipment-and-tools"
+  },
+  {
+    "id": "opera",
+    "text": "opera",
+    "category": "the-arts-and-media"
+  },
+  {
+    "id": "orchestra",
+    "text": "orchestra",
+    "category": "the-arts-and-media"
+  },
+  {
+    "id": "concert",
+    "text": "concert",
+    "category": "the-arts-and-media"
+  },
+  {
+    "id": "symphony",
+    "text": "symphony",
+    "category": "the-arts-and-media"
+  },
+  {
+    "id": "the-press",
+    "text": "the press",
+    "category": "the-arts-and-media"
+  },
+  {
+    "id": "conductor",
+    "text": "conductor",
+    "category": "the-arts-and-media"
+  },
+  {
+    "id": "vocalist",
+    "text": "vocalist",
+    "category": "the-arts-and-media"
+  },
+  {
+    "id": "audience",
+    "text": "audience",
+    "category": "the-arts-and-media"
+  },
+  {
+    "id": "festival",
+    "text": "festival",
+    "category": "the-arts-and-media"
+  },
+  {
+    "id": "carnival",
+    "text": "carnival",
+    "category": "the-arts-and-media"
+  },
+  {
+    "id": "exhibition",
+    "text": "exhibition",
+    "category": "the-arts-and-media"
+  },
+  {
+    "id": "classical-music",
+    "text": "classical music",
+    "category": "the-arts-and-media"
+  },
+  {
+    "id": "theatre",
+    "text": "theatre",
+    "category": "the-arts-and-media",
+    "alt": [
+      "theater"
+    ]
+  },
+  {
+    "id": "cinemas",
+    "text": "cinemas",
+    "category": "the-arts-and-media"
+  },
+  {
+    "id": "art-gallery",
+    "text": "art gallery",
+    "category": "the-arts-and-media"
+  },
+  {
+    "id": "museum",
+    "text": "museum",
+    "category": "the-arts-and-media"
+  },
+  {
+    "id": "ballet",
+    "text": "ballet",
+    "category": "the-arts-and-media"
+  },
+  {
+    "id": "television",
+    "text": "television",
+    "category": "the-arts-and-media"
+  },
+  {
+    "id": "radio",
+    "text": "radio",
+    "category": "the-arts-and-media"
+  },
+  {
+    "id": "graphics",
+    "text": "graphics",
+    "category": "the-arts-and-media"
+  },
+  {
+    "id": "newspaper",
+    "text": "newspaper",
+    "category": "the-arts-and-media"
+  },
+  {
+    "id": "fur",
+    "text": "fur",
+    "category": "materials"
+  },
+  {
+    "id": "metal",
+    "text": "metal",
+    "category": "materials"
+  },
+  {
+    "id": "steel",
+    "text": "steel",
+    "category": "materials",
+    "hint": "strong iron-carbon metal alloy"
+  },
+  {
+    "id": "aluminum",
+    "text": "aluminum",
+    "category": "materials",
+    "alt": [
+      "aluminium"
+    ]
+  },
+  {
+    "id": "copper",
+    "text": "copper",
+    "category": "materials"
+  },
+  {
+    "id": "rubber",
+    "text": "rubber",
+    "category": "materials"
+  },
+  {
+    "id": "plastic",
+    "text": "plastic",
+    "category": "materials"
+  },
+  {
+    "id": "ceramics",
+    "text": "ceramics",
+    "category": "materials"
+  },
+  {
+    "id": "glass",
+    "text": "glass",
+    "category": "materials"
+  },
+  {
+    "id": "cement",
+    "text": "cement",
+    "category": "materials"
+  },
+  {
+    "id": "stone",
+    "text": "stone",
+    "category": "materials"
+  },
+  {
+    "id": "textile",
+    "text": "textile",
+    "category": "materials"
+  },
+  {
+    "id": "cotton",
+    "text": "cotton",
+    "category": "materials"
+  },
+  {
+    "id": "fabric",
+    "text": "fabric",
+    "category": "materials"
+  },
+  {
+    "id": "wool",
+    "text": "wool",
+    "category": "materials"
+  },
+  {
+    "id": "leather",
+    "text": "leather",
+    "category": "materials"
+  },
+  {
+    "id": "bone",
+    "text": "bone",
+    "category": "materials"
+  },
+  {
+    "id": "paper",
+    "text": "paper",
+    "category": "materials"
+  },
+  {
+    "id": "lumber",
+    "text": "lumber",
+    "category": "materials",
+    "alt": [
+      "lumber/wood"
+    ]
+  },
+  {
+    "id": "glue",
+    "text": "glue",
+    "category": "materials"
+  },
+  {
+    "id": "composite",
+    "text": "composite",
+    "category": "materials"
+  },
+  {
+    "id": "fiberglass",
+    "text": "fiberglass",
+    "category": "materials",
+    "alt": [
+      "fibreglass"
+    ]
+  },
+  {
+    "id": "concrete",
+    "text": "concrete",
+    "category": "materials"
+  },
+  {
+    "id": "wax",
+    "text": "wax",
+    "category": "materials"
+  },
+  {
+    "id": "wood",
+    "text": "wood",
+    "category": "materials",
+    "hint": "material from trees"
+  },
+  {
+    "id": "silver",
+    "text": "silver",
+    "category": "materials"
+  },
+  {
+    "id": "gold",
+    "text": "gold",
+    "category": "materials"
+  },
+  {
+    "id": "feather",
+    "text": "feather",
+    "category": "materials"
+  },
+  {
+    "id": "occupation",
+    "text": "occupation",
+    "category": "works-and-jobs"
+  },
+  {
+    "id": "profession",
+    "text": "profession",
+    "category": "works-and-jobs"
+  },
+  {
+    "id": "designer",
+    "text": "designer",
+    "category": "works-and-jobs"
+  },
+  {
+    "id": "decorator",
+    "text": "decorator",
+    "category": "works-and-jobs"
+  },
+  {
+    "id": "architect",
+    "text": "architect",
+    "category": "works-and-jobs"
+  },
+  {
+    "id": "engineer",
+    "text": "engineer",
+    "category": "works-and-jobs"
+  },
+  {
+    "id": "manager",
+    "text": "manager",
+    "category": "works-and-jobs"
+  },
+  {
+    "id": "waitress",
+    "text": "waitress",
+    "category": "works-and-jobs"
+  },
+  {
+    "id": "waiter",
+    "text": "waiter",
+    "category": "works-and-jobs",
+    "hint": "person who serves food at tables"
+  },
+  {
+    "id": "teacher",
+    "text": "teacher",
+    "category": "works-and-jobs"
+  },
+  {
+    "id": "vacancy",
+    "text": "vacancy",
+    "category": "works-and-jobs"
+  },
+  {
+    "id": "professor",
+    "text": "professor",
+    "category": "works-and-jobs"
+  },
+  {
+    "id": "specialist",
+    "text": "specialist",
+    "category": "works-and-jobs"
+  },
+  {
+    "id": "psychologist",
+    "text": "psychologist",
+    "category": "works-and-jobs"
+  },
+  {
+    "id": "volunteer",
+    "text": "volunteer",
+    "category": "works-and-jobs"
+  },
+  {
+    "id": "freelance",
+    "text": "freelance",
+    "category": "works-and-jobs"
+  },
+  {
+    "id": "secretary",
+    "text": "secretary",
+    "category": "works-and-jobs"
+  },
+  {
+    "id": "craftsman",
+    "text": "craftsman",
+    "category": "works-and-jobs"
+  },
+  {
+    "id": "work-experience",
+    "text": "work experience",
+    "category": "works-and-jobs"
+  },
+  {
+    "id": "curriculum-vitae",
+    "text": "curriculum vitae",
+    "category": "works-and-jobs"
+  },
+  {
+    "id": "mail-address",
+    "text": "mail address",
+    "category": "works-and-jobs",
+    "hint": "postal address"
+  },
+  {
+    "id": "receptionist",
+    "text": "receptionist",
+    "category": "works-and-jobs"
+  },
+  {
+    "id": "pilot",
+    "text": "pilot",
+    "category": "works-and-jobs"
+  },
+  {
+    "id": "guard",
+    "text": "guard",
+    "category": "works-and-jobs"
+  },
+  {
+    "id": "flight-attendant",
+    "text": "flight attendant",
+    "category": "works-and-jobs"
+  },
+  {
+    "id": "lecturer",
+    "text": "lecturer",
+    "category": "works-and-jobs"
+  },
+  {
+    "id": "office-assistant",
+    "text": "office assistant",
+    "category": "works-and-jobs"
+  },
+  {
+    "id": "clerk",
+    "text": "clerk",
+    "category": "works-and-jobs"
+  },
+  {
+    "id": "accountant",
+    "text": "accountant",
+    "category": "works-and-jobs"
+  },
+  {
+    "id": "cashier",
+    "text": "cashier",
+    "category": "works-and-jobs"
+  },
+  {
+    "id": "captain",
+    "text": "captain",
+    "category": "works-and-jobs"
+  },
+  {
+    "id": "blue",
+    "text": "blue",
+    "category": "color",
+    "hint": "color of a clear daytime sky"
+  },
+  {
+    "id": "white",
+    "text": "white",
+    "category": "color"
+  },
+  {
+    "id": "orange",
+    "text": "orange",
+    "category": "color"
+  },
+  {
+    "id": "green",
+    "text": "green",
+    "category": "color"
+  },
+  {
+    "id": "grey",
+    "text": "grey",
+    "category": "color",
+    "alt": [
+      "gray"
+    ]
+  },
+  {
+    "id": "black",
+    "text": "black",
+    "category": "color"
+  },
+  {
+    "id": "red",
+    "text": "red",
+    "category": "color",
+    "hint": "primary warm color"
+  },
+  {
+    "id": "yellow",
+    "text": "yellow",
+    "category": "color"
+  },
+  {
+    "id": "purple",
+    "text": "purple",
+    "category": "color"
+  },
+  {
+    "id": "brown",
+    "text": "brown",
+    "category": "color"
+  },
+  {
+    "id": "pink",
+    "text": "pink",
+    "category": "color"
+  },
+  {
+    "id": "three-times",
+    "text": "three times",
+    "category": "expressions-and-time"
+  },
+  {
+    "id": "three-times-per-week",
+    "text": "three times per week",
+    "category": "expressions-and-time"
+  },
+  {
+    "id": "a-gap-year",
+    "text": "a gap year",
+    "category": "expressions-and-time",
+    "alt": [
+      "gap year"
+    ]
+  },
+  {
+    "id": "full-time",
+    "text": "full-time",
+    "category": "expressions-and-time"
+  },
+  {
+    "id": "part-time",
+    "text": "part-time",
+    "category": "expressions-and-time"
+  },
+  {
+    "id": "midday",
+    "text": "midday",
+    "category": "expressions-and-time"
+  },
+  {
+    "id": "midnight",
+    "text": "midnight",
+    "category": "expressions-and-time"
+  },
+  {
+    "id": "millennium",
+    "text": "millennium",
+    "category": "expressions-and-time"
+  },
+  {
+    "id": "century",
+    "text": "century",
+    "category": "expressions-and-time"
+  },
+  {
+    "id": "decade",
+    "text": "decade",
+    "category": "expressions-and-time"
+  },
+  {
+    "id": "fortnight",
+    "text": "fortnight",
+    "category": "expressions-and-time"
+  },
+  {
+    "id": "passport-photo",
+    "text": "passport photo",
+    "category": "other"
+  },
+  {
+    "id": "state",
+    "text": "state",
+    "category": "other"
+  },
+  {
+    "id": "government",
+    "text": "government",
+    "category": "other"
+  },
+  {
+    "id": "individual",
+    "text": "individual",
+    "category": "other"
+  },
+  {
+    "id": "variety",
+    "text": "variety",
+    "category": "other"
+  },
+  {
+    "id": "private-sector",
+    "text": "private sector",
+    "category": "other"
+  },
+  {
+    "id": "practice",
+    "text": "practice",
+    "category": "other",
+    "alt": [
+      "practise"
+    ],
+    "hint": "repeated exercise or customary action"
+  },
+  {
+    "id": "gender",
+    "text": "gender",
+    "category": "other"
+  },
+  {
+    "id": "creativity",
+    "text": "creativity",
+    "category": "other"
+  },
+  {
+    "id": "original-inhabitant",
+    "text": "original inhabitant",
+    "category": "other"
+  },
+  {
+    "id": "indigenous",
+    "text": "indigenous",
+    "category": "other"
+  },
+  {
+    "id": "demonstration",
+    "text": "demonstration",
+    "category": "other"
+  },
+  {
+    "id": "strike",
+    "text": "strike",
+    "category": "other"
+  },
+  {
+    "id": "entrance",
+    "text": "entrance",
+    "category": "other"
+  },
+  {
+    "id": "circuit",
+    "text": "circuit",
+    "category": "other"
+  },
+  {
+    "id": "guarantee",
+    "text": "guarantee",
+    "category": "other"
+  },
+  {
+    "id": "dialogue",
+    "text": "dialogue",
+    "category": "other",
+    "alt": [
+      "dialog"
+    ]
+  },
+  {
+    "id": "commerce",
+    "text": "commerce",
+    "category": "other"
+  },
+  {
+    "id": "carriage",
+    "text": "carriage",
+    "category": "other"
+  },
+  {
+    "id": "narrative",
+    "text": "narrative",
+    "category": "other"
+  },
+  {
+    "id": "chocolate",
+    "text": "chocolate",
+    "category": "other"
+  },
+  {
+    "id": "satellite",
+    "text": "satellite",
+    "category": "other"
+  },
+  {
+    "id": "decision",
+    "text": "decision",
+    "category": "other"
+  },
+  {
+    "id": "prototype",
+    "text": "prototype",
+    "category": "other"
+  },
+  {
+    "id": "attitude",
+    "text": "attitude",
+    "category": "other"
+  },
+  {
+    "id": "daily-routine",
+    "text": "daily routine",
+    "category": "other"
+  },
+  {
+    "id": "personal-fulfillment",
+    "text": "personal fulfillment",
+    "category": "other",
+    "alt": [
+      "personal fulfilment"
+    ]
+  },
+  {
+    "id": "activity",
+    "text": "activity",
+    "category": "other"
+  },
+  {
+    "id": "recipient",
+    "text": "recipient",
+    "category": "other"
+  },
+  {
+    "id": "ultrasound",
+    "text": "ultrasound",
+    "category": "other"
+  },
+  {
+    "id": "pedestrian-safety",
+    "text": "pedestrian safety",
+    "category": "other"
+  },
+  {
+    "id": "traffic-jams",
+    "text": "traffic jams",
+    "category": "other"
+  },
+  {
+    "id": "procedures",
+    "text": "procedures",
+    "category": "other"
+  },
+  {
+    "id": "creation",
+    "text": "creation",
+    "category": "other"
+  },
+  {
+    "id": "prize",
+    "text": "prize",
+    "category": "other"
+  },
+  {
+    "id": "junior",
+    "text": "junior",
+    "category": "other"
+  },
+  {
+    "id": "senior",
+    "text": "senior",
+    "category": "other"
+  },
+  {
+    "id": "opportunity",
+    "text": "opportunity",
+    "category": "other"
+  },
+  {
+    "id": "driving-license",
+    "text": "driving license",
+    "category": "other",
+    "alt": [
+      "driving licence"
+    ]
+  },
+  {
+    "id": "process",
+    "text": "process",
+    "category": "other"
+  },
+  {
+    "id": "literary",
+    "text": "literary",
+    "category": "other"
+  },
+  {
+    "id": "man-made",
+    "text": "man-made",
+    "category": "other",
+    "alt": [
+      "manmade"
+    ]
+  },
+  {
+    "id": "republicans",
+    "text": "republicans",
+    "category": "other"
+  },
+  {
+    "id": "umbrella",
+    "text": "umbrella",
+    "category": "other"
+  },
+  {
+    "id": "frequently-updated",
+    "text": "frequently updated",
+    "category": "other"
+  },
+  {
+    "id": "waiting-list",
+    "text": "waiting list",
+    "category": "other"
+  },
+  {
+    "id": "sewer-systems",
+    "text": "sewer systems",
+    "category": "other",
+    "hint": "underground drainage networks"
+  },
+  {
+    "id": "liberal-democracy",
+    "text": "liberal democracy",
+    "category": "other"
+  },
+  {
+    "id": "democrats",
+    "text": "democrats",
+    "category": "other"
+  },
+  {
+    "id": "lunar-calendar",
+    "text": "lunar calendar",
+    "category": "other"
+  },
+  {
+    "id": "libertarian",
+    "text": "libertarian",
+    "category": "other"
+  },
+  {
+    "id": "burger",
+    "text": "burger",
+    "category": "other"
+  },
+  {
+    "id": "videos",
+    "text": "videos",
+    "category": "other"
+  },
+  {
+    "id": "nature-conservation",
+    "text": "nature conservation",
+    "category": "other"
+  },
+  {
+    "id": "life-expectancy",
+    "text": "life expectancy",
+    "category": "other"
+  },
+  {
+    "id": "fund-raising-event",
+    "text": "fund-raising event",
+    "category": "other",
+    "alt": [
+      "fundraising event"
+    ]
+  },
+  {
+    "id": "magnet",
+    "text": "magnet",
+    "category": "other"
+  },
+  {
+    "id": "dialect",
+    "text": "dialect",
+    "category": "other"
+  },
+  {
+    "id": "ramification",
+    "text": "ramification",
+    "category": "other"
+  },
+  {
+    "id": "straight",
+    "text": "straight",
+    "category": "other",
+    "hint": "direct, without bends or curves"
+  },
+  {
+    "id": "farewell",
+    "text": "farewell",
+    "category": "other",
+    "hint": "expression used when saying goodbye"
+  },
+  {
+    "id": "welfare",
+    "text": "welfare",
+    "category": "other"
+  },
+  {
+    "id": "encyclopedia",
+    "text": "encyclopedia",
+    "category": "other",
+    "alt": [
+      "encyclopaedia"
+    ]
+  },
+  {
+    "id": "evolution",
+    "text": "evolution",
+    "category": "other"
+  },
+  {
+    "id": "revolution",
+    "text": "revolution",
+    "category": "other"
+  },
+  {
+    "id": "illiteracy",
+    "text": "illiteracy",
+    "category": "other"
+  },
+  {
+    "id": "robot",
+    "text": "robot",
+    "category": "other"
+  },
+  {
+    "id": "proficiency",
+    "text": "proficiency",
+    "category": "other"
+  },
+  {
+    "id": "sufficient",
+    "text": "sufficient",
+    "category": "other"
+  }
+]

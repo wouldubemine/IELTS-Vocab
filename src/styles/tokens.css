@@ -1,0 +1,396 @@
+/* ==========================================================================
+   Paper & Ink Design Tokens — IELTS Listening Vocabulary Trainer
+   Spec Sections 6 (Visual Design), 7 (Motion), 8 (Responsive Scale), 10 (A11y)
+   All foreground/background pairings verified >= 4.9:1 WCAG AA in Light & Dark
+   ========================================================================== */
+
+:root,
+[data-theme='light'] {
+  /* Core Paper & Ink Palette (Light) */
+  --bg: #F4EFE6;
+  --surface: #FFFBF3;
+  --surface-2: #EDE6D8;
+  --surface-hover: #F5EFE2;
+  --text: #1D1B16;
+  --text-muted: #665F55;
+  --border: #DDD4C3;
+  --border-strong: #857C6E; /* >= 3.07:1 non-text contrast across all surfaces */
+
+  /* Semantic Ink Accents (WCAG AA verified on --bg, --surface, --surface-2, & tonal bgs) */
+  --accent: #1F6F5C;
+  --accent-hover: #18594A;
+  --accent-contrast: #FFFBF3;
+  --accent-soft: #E3F0EC;
+  --accent-border: #8EBDB1;
+
+  --highlight: #D98E1F; /* Saffron decorative fill / progress highlight */
+  --highlight-ink: #8C5608; /* >= 5.0:1 text contrast on light surfaces */
+  --highlight-bg: #FBF0DC;
+  --highlight-border: #E2BE7E;
+
+  --correct: #236B40; /* Tuned from #2E7D4F so text achieves >= 4.9:1 on all light surfaces */
+  --correct-bg: #E6F2EA;
+  --correct-border: #8EC4A2;
+
+  --wrong: #AC3A20; /* Tuned from #C8472B so text achieves >= 4.9:1 on all light surfaces */
+  --wrong-bg: #FAEDE9;
+  --wrong-border: #E0A294;
+
+  --scrim: rgba(24, 21, 16, 0.46);
+  --paper-rule: rgba(29, 27, 22, 0.055);
+
+  /* Elevation (Subtle warm archival shadows in Light) */
+  --shadow-1: 0 1px 2px rgba(29, 27, 22, 0.05), 0 1px 0 rgba(29, 27, 22, 0.03);
+  --shadow-2: 0 6px 20px -4px rgba(29, 27, 22, 0.09), 0 2px 6px -1px rgba(29, 27, 22, 0.05);
+  --shadow-3: 0 18px 44px -8px rgba(29, 27, 22, 0.18), 0 4px 12px -2px rgba(29, 27, 22, 0.08);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --bg: #12110F;
+    --surface: #1C1A17;
+    --surface-2: #26231F;
+    --surface-hover: #22201C;
+    --text: #F2ECE0;
+    --text-muted: #A39B8D;
+    --border: #33302A;
+    --border-strong: #787166;
+
+    --accent: #5FB89A;
+    --accent-hover: #74C6AA;
+    --accent-contrast: #0F1A16;
+    --accent-soft: #182823;
+    --accent-border: #2F5C4E;
+
+    --highlight: #F0B65A;
+    --highlight-ink: #F0B65A;
+    --highlight-bg: #2B2316;
+    --highlight-border: #5E4722;
+
+    --correct: #6CC38A;
+    --correct-bg: #192920;
+    --correct-border: #2E593D;
+
+    --wrong: #EE7B63;
+    --wrong-bg: #2C1C19;
+    --wrong-border: #63342B;
+
+    --scrim: rgba(5, 5, 4, 0.68);
+    --paper-rule: rgba(242, 236, 224, 0.045);
+
+    --shadow-1: 0 1px 0 rgba(255, 255, 255, 0.03) inset, 0 1px 3px rgba(0, 0, 0, 0.36);
+    --shadow-2: 0 1px 0 rgba(255, 255, 255, 0.04) inset, 0 8px 24px -4px rgba(0, 0, 0, 0.5);
+    --shadow-3: 0 1px 0 rgba(255, 255, 255, 0.06) inset, 0 22px 50px -8px rgba(0, 0, 0, 0.72);
+  }
+}
+
+[data-theme='dark'] {
+  /* Core Paper & Ink Palette (Dark) */
+  --bg: #12110F;
+  --surface: #1C1A17;
+  --surface-2: #26231F;
+  --surface-hover: #22201C;
+  --text: #F2ECE0;
+  --text-muted: #A39B8D;
+  --border: #33302A;
+  --border-strong: #787166; /* >= 3.24:1 non-text contrast across all dark surfaces */
+
+  --accent: #5FB89A;
+  --accent-hover: #74C6AA;
+  --accent-contrast: #0F1A16;
+  --accent-soft: #182823;
+  --accent-border: #2F5C4E;
+
+  --highlight: #F0B65A;
+  --highlight-ink: #F0B65A;
+  --highlight-bg: #2B2316;
+  --highlight-border: #5E4722;
+
+  --correct: #6CC38A;
+  --correct-bg: #192920;
+  --correct-border: #2E593D;
+
+  --wrong: #EE7B63;
+  --wrong-bg: #2C1C19;
+  --wrong-border: #63342B;
+
+  --scrim: rgba(5, 5, 4, 0.68);
+  --paper-rule: rgba(242, 236, 224, 0.045);
+
+  /* Tonal Elevation in Dark */
+  --shadow-1: 0 1px 0 rgba(255, 255, 255, 0.03) inset, 0 1px 3px rgba(0, 0, 0, 0.36);
+  --shadow-2: 0 1px 0 rgba(255, 255, 255, 0.04) inset, 0 8px 24px -4px rgba(0, 0, 0, 0.5);
+  --shadow-3: 0 1px 0 rgba(255, 255, 255, 0.06) inset, 0 22px 50px -8px rgba(0, 0, 0, 0.72);
+}
+
+/* ==========================================================================
+   Shared 8 Desaturated Muted Category Tints (Equal Lightness, AA >= 5.2:1)
+   ========================================================================== */
+
+[data-tint='0'] {
+  --tint-fg: #2C6D5D;
+  --tint-bg: #E3F2EE;
+  --tint-border: #B7DDD4;
+}
+[data-tint='1'] {
+  --tint-fg: #6D552C;
+  --tint-bg: #F2EDE3;
+  --tint-border: #DDD0B7;
+}
+[data-tint='2'] {
+  --tint-fg: #6D3B2C;
+  --tint-bg: #F2E7E3;
+  --tint-border: #DDC1B7;
+}
+[data-tint='3'] {
+  --tint-fg: #2C4C6D;
+  --tint-bg: #E3EBF2;
+  --tint-border: #B7CBD9;
+}
+[data-tint='4'] {
+  --tint-fg: #522C6D;
+  --tint-bg: #ECE3F2;
+  --tint-border: #CDB7DD;
+}
+[data-tint='5'] {
+  --tint-fg: #476D2C;
+  --tint-bg: #E9F2E3;
+  --tint-border: #C6DDB7;
+}
+[data-tint='6'] {
+  --tint-fg: #6D2C40;
+  --tint-bg: #F2E3E8;
+  --tint-border: #DDB7C3;
+}
+[data-tint='7'] {
+  --tint-fg: #2C626D;
+  --tint-bg: #E3EFF2;
+  --tint-border: #B7D5DD;
+}
+
+[data-theme='dark'] [data-tint='0'] {
+  --tint-fg: #9AD6C7;
+  --tint-bg: #1F332E;
+  --tint-border: #2E5249;
+}
+[data-theme='dark'] [data-tint='1'] {
+  --tint-fg: #D6C09A;
+  --tint-bg: #332C1F;
+  --tint-border: #52452E;
+}
+[data-theme='dark'] [data-tint='2'] {
+  --tint-fg: #D6A89A;
+  --tint-bg: #33231F;
+  --tint-border: #52372E;
+}
+[data-theme='dark'] [data-tint='3'] {
+  --tint-fg: #9AB8D6;
+  --tint-bg: #1F2933;
+  --tint-border: #2E4052;
+}
+[data-theme='dark'] [data-tint='4'] {
+  --tint-fg: #BD9AD6;
+  --tint-bg: #2A1F33;
+  --tint-border: #422E52;
+}
+[data-theme='dark'] [data-tint='5'] {
+  --tint-fg: #B3D69A;
+  --tint-bg: #27331F;
+  --tint-border: #3D522E;
+}
+[data-theme='dark'] [data-tint='6'] {
+  --tint-fg: #D69AAC;
+  --tint-bg: #331F25;
+  --tint-border: #522E39;
+}
+[data-theme='dark'] [data-tint='7'] {
+  --tint-fg: #9ACCD6;
+  --tint-bg: #1F3033;
+  --tint-border: #2E4B52;
+}
+
+/* ==========================================================================
+   Typography, Spacing, Radius, & Motion Tokens
+   ========================================================================== */
+
+:root {
+  --font-display: 'Fraunces', Georgia, 'Iowan Old Style', 'Times New Roman', serif;
+  --font-sans: 'Instrument Sans', system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, sans-serif;
+
+  --font-scale: 1;
+
+  /* Fluid Type Scale via clamp() */
+  --text-xs: calc(clamp(0.75rem, 0.72rem + 0.14vw, 0.84rem) * var(--font-scale));
+  --text-sm: calc(clamp(0.855rem, 0.82rem + 0.18vw, 0.95rem) * var(--font-scale));
+  --text-base: calc(clamp(0.96rem, 0.92rem + 0.2vw, 1.06rem) * var(--font-scale));
+  --text-lg: calc(clamp(1.12rem, 1.04rem + 0.35vw, 1.32rem) * var(--font-scale));
+  --text-xl: calc(clamp(1.35rem, 1.2rem + 0.65vw, 1.78rem) * var(--font-scale));
+  --text-2xl: calc(clamp(1.7rem, 1.42rem + 1.15vw, 2.45rem) * var(--font-scale));
+  --text-hero: calc(clamp(2.05rem, 1.65rem + 1.9vw, 3.35rem) * var(--font-scale));
+
+  /* 4 / 8px Spacing Scale */
+  --space-1: 0.25rem; /* 4px */
+  --space-2: 0.5rem;  /* 8px */
+  --space-3: 0.75rem; /* 12px */
+  --space-4: 1rem;    /* 16px */
+  --space-5: 1.25rem; /* 20px */
+  --space-6: 1.5rem;  /* 24px */
+  --space-8: 2rem;    /* 32px */
+  --space-10: 2.5rem; /* 40px */
+  --space-12: 3rem;   /* 48px */
+  --space-16: 4rem;   /* 64px */
+
+  /* Consistent Radius Scale */
+  --radius-xs: 6px;
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-pill: 999px;
+
+  /* iOS-style Fluid Motion Curves & Strictly <= 500ms Durations (Spec Section 7) */
+  --ease-ios: cubic-bezier(0.32, 0.72, 0, 1);
+  --ease-spring: linear(
+    0,
+    0.009,
+    0.035 2.1%,
+    0.141,
+    0.281 6.7%,
+    0.723 12.9%,
+    0.938 16.7%,
+    1.017,
+    1.077,
+    1.121,
+    1.149 24.3%,
+    1.159,
+    1.163,
+    1.161,
+    1.154 29.9%,
+    1.129 32.8%,
+    1.051 39.6%,
+    1.017 43.1%,
+    0.991,
+    0.977 51%,
+    0.974 53.8%,
+    0.975 57.1%,
+    0.997 69.8%,
+    1.003 76.9%,
+    1
+  );
+  --dur-press: 140ms;
+  --dur-fast: 200ms;
+  --dur-med: 300ms;
+  --dur-slow: 420ms;
+
+  /* Dynamic viewport variables updated live by useViewportMetrics */
+  --vvh: 100dvh;
+  --keyboard-inset: 0px;
+}
+
+/* Large Screens (> 1600px): scale up typography & breathing room cleanly */
+@media (min-width: 1601px) {
+  :root {
+    --text-base: calc(1.09rem * var(--font-scale));
+    --text-lg: calc(1.38rem * var(--font-scale));
+    --text-xl: calc(1.9rem * var(--font-scale));
+    --text-2xl: calc(2.7rem * var(--font-scale));
+    --text-hero: calc(3.65rem * var(--font-scale));
+  }
+}
+
+/* Pure GPU Snapshot Crossfade on Theme Switch (avoids midpoint gray-on-gray RGB inversion flash) */
+html[data-theme-transition='active']::view-transition-old(root),
+html[data-theme-transition='active']::view-transition-new(root) {
+  animation-duration: 200ms;
+  animation-timing-function: var(--ease-ios);
+}
+
+/* View Transitions API — Directional Slide/Fade with Subtle Parallax */
+@keyframes vt-enter-from-right {
+  from {
+    opacity: 0;
+    transform: translate3d(22px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes vt-exit-parallax-left {
+  from {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    opacity: 0.35;
+    transform: translate3d(-14px, 0, 0);
+  }
+}
+
+@keyframes vt-enter-from-left {
+  from {
+    opacity: 0;
+    transform: translate3d(-22px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes vt-exit-parallax-right {
+  from {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    opacity: 0.35;
+    transform: translate3d(14px, 0, 0);
+  }
+}
+
+::view-transition-old(main-canvas) {
+  animation: 260ms var(--ease-ios) both vt-exit-parallax-left;
+}
+
+::view-transition-new(main-canvas) {
+  animation: 320ms var(--ease-ios) both vt-enter-from-right;
+}
+
+html[data-nav-dir='back']::view-transition-old(main-canvas) {
+  animation-name: vt-exit-parallax-right;
+}
+
+html[data-nav-dir='back']::view-transition-new(main-canvas) {
+  animation-name: vt-enter-from-left;
+}
+
+/* Reduced Motion Accessibility Override (System + In-App Toggle) */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur-press: 0ms;
+    --dur-fast: 120ms;
+    --dur-med: 140ms;
+    --dur-slow: 160ms;
+  }
+
+  ::view-transition-old(main-canvas),
+  ::view-transition-new(main-canvas) {
+    animation-duration: 130ms !important;
+    transform: none !important;
+  }
+}
+
+html[data-motion='reduced'] {
+  --dur-press: 0ms;
+  --dur-fast: 120ms;
+  --dur-med: 140ms;
+  --dur-slow: 160ms;
+}
+
+html[data-motion='reduced']::view-transition-old(main-canvas),
+html[data-motion='reduced']::view-transition-new(main-canvas) {
+  animation-duration: 130ms !important;
+  transform: none !important;
+}

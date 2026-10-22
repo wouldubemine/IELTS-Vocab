@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta
+      name="description"
+      content="Practice spelling the 1,200 most commonly repeated words in the IELTS Listening test by category, with spaced repetition and a dedicated mistakes bank."
+    />
+    <meta name="theme-color" content="#F4EFE6" id="meta-theme-color" />
+    <title>Lexicon Folio — IELTS Listening Vocabulary Trainer</title>
+
+    <!-- Google Fonts: Fraunces (Display Soft Serif) + Instrument Sans (UI/Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,SOFT,wght@0,9..144,0..100,400..700;1,9..144,0..100,400..600&family=Instrument+Sans:ital,wght@0,400..700;1,400..600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Synchronous zero-flash theme & motion initializer before first paint -->
+    <script>
+      (function () {
+        var root = document.documentElement;
+        var themePref = 'system';
+        var reduceMotion = false;
+        try {
+          var raw = window.localStorage.getItem('ielts-trainer:v1');
+          if (raw) {
+            var parsed = JSON.parse(raw);
+            if (parsed && parsed.settings) {
+              var t = parsed.settings.theme;
+              if (t === 'light' || t === 'dark' || t === 'system') {
+                themePref = t;
+              }
+              if (typeof parsed.settings.reduceMotion === 'boolean') {
+                reduceMotion = parsed.settings.reduceMotion;
+              }
+            }
+          }
+        } catch (_err) {
+          // Storage blocked, unavailable, or invalid: gracefully fall back to system
+        }
+        var systemDark = false;
+        try {
+          systemDark =
+            !!window.matchMedia &&
+            window.matchMedia('(prefers-color-scheme: dark)').matches;
+        } catch (_err2) {}
+        var resolved =
+          themePref === 'system' ? (systemDark ? 'dark' : 'light') : themePref;
+        root.dataset.theme = resolved;
+        root.dataset.themePref = themePref;
+        root.style.colorScheme = resolved;
+        if (reduceMotion) {
+          root.dataset.motion = 'reduced';
+        }
+        var meta = document.getElementById('meta-theme-color');
+        if (meta) {
+          meta.setAttribute('content', resolved === 'dark' ? '#12110F' : '#F4EFE6');
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

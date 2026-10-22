@@ -1,0 +1,495 @@
+/* ==========================================================================
+   Practice Workspace, Card Stack Motion, Check Draw & Diff Highlight Styles
+   Spec Sections 4.2, 4.3, 6.4, 7, 8, 10
+   ========================================================================== */
+
+.practice-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--space-5);
+  align-items: start;
+}
+
+@media (min-width: 1025px) {
+  .practice-layout {
+    grid-template-columns: minmax(0, 1fr) 296px;
+    gap: var(--space-6);
+  }
+}
+
+@media (min-width: 1601px) {
+  .practice-layout {
+    grid-template-columns: minmax(0, 1fr) 332px;
+    gap: var(--space-8);
+  }
+}
+
+.practice-topbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  margin-bottom: var(--space-4);
+}
+
+/* Spring Progress Track */
+.session-progress-track {
+  width: 100%;
+  height: 7px;
+  border-radius: var(--radius-pill);
+  background: var(--surface-2);
+  overflow: hidden;
+  border: 1px solid var(--border);
+  margin-bottom: var(--space-4);
+}
+
+.session-progress-fill {
+  width: 100%;
+  height: 100%;
+  border-radius: var(--radius-pill);
+  background: var(--accent);
+  transform-origin: left center;
+  transform: scaleX(var(--progress-ratio, 0));
+  transition: transform var(--dur-slow) var(--ease-spring, var(--ease-ios));
+  will-change: transform;
+}
+
+/* Card Stack Container */
+.practice-card-stage {
+  position: relative;
+}
+
+.practice-card {
+  position: relative;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-2);
+  padding: var(--space-6);
+  animation: card-stack-enter var(--dur-med) var(--ease-ios);
+  transition: border-color var(--dur-fast) var(--ease-ios),
+    background-color var(--dur-fast) var(--ease-ios);
+}
+
+.practice-card.is-correct {
+  border-color: var(--correct-border);
+}
+
+.practice-card.is-correct::after {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  border-radius: calc(var(--radius-lg) + 4px);
+  border: 2px solid var(--correct-border);
+  pointer-events: none;
+  animation: correct-soft-pulse 420ms var(--ease-ios) forwards;
+}
+
+.practice-card.is-wrong {
+  border-color: var(--wrong-border);
+  animation: wrong-horizontal-shake 340ms var(--ease-ios);
+}
+
+@keyframes card-stack-enter {
+  from {
+    opacity: 0;
+    transform: scale(0.975) translate3d(0, 8px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translate3d(0, 0, 0);
+  }
+}
+
+@keyframes correct-soft-pulse {
+  0% {
+    opacity: 0.9;
+    transform: scale(0.99);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.015);
+  }
+}
+
+/* Spec Section 7: subtle horizontal shake (~6px, 2 oscillations) */
+@keyframes wrong-horizontal-shake {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  20% {
+    transform: translate3d(-6px, 0, 0);
+  }
+  40% {
+    transform: translate3d(6px, 0, 0);
+  }
+  65% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  85% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .practice-card,
+  .practice-card.is-correct,
+  .practice-card.is-wrong {
+    animation: none !important;
+  }
+}
+
+html[data-motion='reduced'] .practice-card,
+html[data-motion='reduced'] .practice-card.is-correct,
+html[data-motion='reduced'] .practice-card.is-wrong {
+  animation: none !important;
+}
+
+/* Audio Speaker Prompt Button */
+.audio-hero-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-3);
+  margin: var(--space-4) 0 var(--space-5);
+}
+
+.audio-speak-orb {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+  min-height: 56px;
+  padding: var(--space-3) var(--space-5);
+  border-radius: var(--radius-pill);
+  border: 1.5px solid var(--accent);
+  background: var(--accent);
+  color: var(--accent-contrast);
+  font-family: var(--font-sans);
+  font-size: var(--text-base);
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: var(--shadow-1);
+  transition: transform var(--dur-press) var(--ease-ios),
+    background-color var(--dur-fast) var(--ease-ios);
+}
+
+.audio-speak-orb:active:not(:disabled) {
+  transform: scale(0.97);
+}
+
+.audio-speak-orb.is-speaking {
+  box-shadow: 0 0 0 5px var(--accent-soft);
+}
+
+/* Hero Spelling Input */
+.spelling-input {
+  width: 100%;
+  min-height: 58px;
+  padding: 0.8rem 1.1rem;
+  border-radius: var(--radius-md);
+  border: 2px solid var(--border-strong);
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  letter-spacing: 0.025em;
+  transition: border-color var(--dur-fast) var(--ease-ios),
+    box-shadow var(--dur-fast) var(--ease-ios),
+    background-color var(--dur-fast) var(--ease-ios);
+}
+
+.spelling-input:focus {
+  outline: none;
+  background: var(--surface);
+  border-color: var(--accent);
+  box-shadow: 0 0 0 4px var(--accent-soft);
+}
+
+/* Read & Type Memory Reveal Box */
+.memory-flash-box {
+  padding: var(--space-4) var(--space-5);
+  border-radius: var(--radius-md);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  margin: var(--space-3) 0 var(--space-4);
+}
+
+.memory-hero-word {
+  font-family: var(--font-display);
+  font-size: var(--text-hero);
+  letter-spacing: 0.03em;
+  word-break: break-word;
+}
+
+/* Progressive Hint Strip */
+.hint-banner {
+  margin-bottom: var(--space-4);
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-sm);
+  background: var(--highlight-bg);
+  border: 1px solid var(--highlight-border);
+}
+
+.hint-pattern {
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: var(--text);
+  margin-top: 4px;
+  word-break: break-word;
+}
+
+/* Animated Drawn Checkmark on Correct Answer */
+.drawn-check-icon path {
+  stroke-dasharray: 28;
+  stroke-dashoffset: 28;
+  animation: draw-check-stroke 280ms var(--ease-ios) forwards;
+}
+
+@keyframes draw-check-stroke {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* Feedback & Letter-Level Diff Slide-in Panel */
+.feedback-panel {
+  margin-top: var(--space-4);
+  padding: var(--space-4);
+  border-radius: var(--radius-md);
+  animation: diff-slide-in 260ms var(--ease-ios);
+}
+
+.feedback-panel.is-correct {
+  background: var(--correct-bg);
+  border: 1px solid var(--correct-border);
+}
+
+.feedback-panel.is-wrong {
+  background: var(--wrong-bg);
+  border: 1px solid var(--wrong-border);
+}
+
+@keyframes diff-slide-in {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 8px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.diff-word-stream {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 2px;
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  margin-top: var(--space-2);
+  word-break: break-word;
+}
+
+.diff-seg-equal {
+  color: var(--text);
+  white-space: pre-wrap;
+}
+
+.diff-seg-missing {
+  color: var(--correct);
+  background: var(--correct-bg);
+  border-bottom: 2.5px dashed var(--correct);
+  padding: 0 3px;
+  border-radius: 4px;
+  font-weight: 700;
+  white-space: pre-wrap;
+}
+
+.diff-seg-extra {
+  color: var(--wrong);
+  background: var(--wrong-bg);
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+  padding: 0 3px;
+  border-radius: 4px;
+  opacity: 0.92;
+  white-space: pre-wrap;
+}
+
+.diff-seg-swapped {
+  color: var(--highlight-ink);
+  background: var(--highlight-bg);
+  border-bottom: 2.5px solid var(--highlight-ink);
+  padding: 0 4px;
+  border-radius: 4px;
+  font-weight: 700;
+  white-space: pre-wrap;
+}
+
+.diff-seg-wrong {
+  color: var(--wrong);
+  background: var(--wrong-bg);
+  border-bottom: 2.5px solid var(--wrong);
+  padding: 0 4px;
+  border-radius: 4px;
+  font-weight: 700;
+  white-space: pre-wrap;
+}
+
+/* Secondary Panel on Expanded / Large Screens */
+.practice-side-panel {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+/* Flashcards Reveal Button & Choice Grid Styles (Phase 7) */
+.flashcard-reveal-surface {
+  width: 100%;
+  min-height: 152px;
+  padding: var(--space-6) var(--space-4);
+  border-radius: var(--radius-md);
+  border: 1.5px dashed var(--border-strong);
+  background: var(--surface-2);
+  color: var(--text);
+  font-family: var(--font-sans);
+  cursor: pointer;
+  transition: transform var(--dur-press) var(--ease-ios),
+    border-color var(--dur-fast) var(--ease-ios),
+    background-color var(--dur-fast) var(--ease-ios);
+}
+
+.flashcard-reveal-surface:active {
+  transform: scale(0.985);
+}
+
+@media (hover: hover) {
+  .flashcard-reveal-surface:hover {
+    border-color: var(--accent);
+    background: var(--surface-hover);
+  }
+}
+
+.choice-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--space-3);
+}
+
+@container workspace (min-width: 520px) {
+  .choice-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.choice-option-btn {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  width: 100%;
+  min-height: 54px;
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-md);
+  border: 1.5px solid var(--border-strong);
+  background: var(--bg);
+  color: var(--text);
+  text-align: left;
+  cursor: pointer;
+  transition: transform var(--dur-press) var(--ease-ios),
+    border-color var(--dur-fast) var(--ease-ios),
+    background-color var(--dur-fast) var(--ease-ios);
+}
+
+.choice-option-btn:active:not(:disabled) {
+  transform: scale(0.98);
+}
+
+@media (hover: hover) {
+  .choice-option-btn:hover:not(:disabled) {
+    border-color: var(--accent);
+    background: var(--surface-hover);
+  }
+}
+
+.choice-option-btn:disabled {
+  cursor: default;
+}
+
+.choice-option-btn.is-right-option {
+  background: var(--correct-bg);
+  border-color: var(--correct);
+}
+
+.choice-option-btn.is-picked-wrong {
+  background: var(--wrong-bg);
+  border-color: var(--wrong);
+}
+
+.choice-num-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
+  border-radius: var(--radius-xs);
+  background: var(--surface);
+  border: 1px solid var(--border-strong);
+  font-size: var(--text-xs);
+  font-weight: 700;
+  color: var(--text-muted);
+}
+
+.choice-text {
+  flex: 1;
+  min-width: 0;
+  font-size: var(--text-lg);
+  word-break: break-word;
+}
+
+.mode-pills-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+/* Compact Short-Viewport Landscape Phone Tight Rhythm (Zero Scroll Needed) */
+@media (max-height: 520px) and (orientation: landscape) {
+  .practice-topbar {
+    margin-bottom: var(--space-2);
+  }
+
+  .session-progress-track {
+    margin-bottom: var(--space-2);
+  }
+
+  .practice-card {
+    padding: var(--space-3) var(--space-4);
+  }
+
+  .audio-hero-row {
+    margin: var(--space-2) 0 var(--space-3);
+  }
+
+  .audio-speak-orb {
+    min-height: 44px;
+    padding: var(--space-2) var(--space-4);
+  }
+
+  .spelling-input {
+    min-height: 46px;
+    padding: 0.45rem 0.85rem;
+    font-size: var(--text-lg);
+  }
+}
