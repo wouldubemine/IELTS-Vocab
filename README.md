@@ -13,13 +13,6 @@
 
 [Live demo](https://ielts-vocab-henna.vercel.app) · [Report a bug](../../issues) · [Request a feature](../../issues)
 
-<!-- Add a screenshot or GIF here: -->
-<!-- ![Lexicon Folio screenshot](docs/screenshot.png) -->
-
-</div>
-
----
-
 ## Why this exists
 
 IELTS Listening punishes spelling mistakes. Most vocabulary tools are paid, need an account, or only test reading. Lexicon Folio trains **listening + spelling together**, works **offline**, and is **free**.
